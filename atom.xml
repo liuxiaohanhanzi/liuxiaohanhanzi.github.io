@@ -34,7 +34,7 @@
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; clone https://github.com/liuxiaohanhanzi/liuxiaohanhanzi.git&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;修改&lt;/p&gt;
-&lt;style&gt;.cuijiljzxgvt{width:80%;}&lt;/style&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/2024/10/15/%E9%85%8D%E7%BD%AEgithub%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/1.png&#34; class=&#34;cuijiljzxgvt&#34;&gt;
+&lt;style&gt;.ajxkbdeaynvq{width:80%;}&lt;/style&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/2024/10/15/%E9%85%8D%E7%BD%AEgithub%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/1.png&#34; class=&#34;ajxkbdeaynvq&#34;&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;查看本地与服务器差异&lt;/p&gt;
@@ -164,7 +164,7 @@
 &lt;li&gt;本地文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;在本地博客文件夹的 source 目录中新建 TXT 文件，里面输入自己的域名（无 http 前缀），保存名称为 “CNAME”（无后缀）&lt;/p&gt;
-&lt;style&gt;.orngqkflkffh{width:80%;}&lt;/style&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/2024/10/13/Hexo%E9%83%A8%E7%BD%B2-%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/image-20241013193247008.png&#34; class=&#34;orngqkflkffh&#34; alt=&#34;image-20241013193247008&#34;&gt;
+&lt;style&gt;.kkkkirxlvgte{width:80%;}&lt;/style&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/2024/10/13/Hexo%E9%83%A8%E7%BD%B2-%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/image-20241013193247008.png&#34; class=&#34;kkkkirxlvgte&#34; alt=&#34;image-20241013193247008&#34;&gt;
 &lt;p&gt;完成！&lt;/p&gt;
 &lt;h1 id=&#34;github域名加速&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github域名加速&#34;&gt;#&lt;/a&gt; Github 域名加速&lt;/h1&gt;
 &lt;p&gt;首先附上&lt;a href=&#34;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site&#34;&gt;官方指路文档&lt;/a&gt;&lt;/p&gt;
