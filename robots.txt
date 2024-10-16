@@ -11,4 +11,3 @@ Disallow: /vendors/
 Disallow: /fancybox/
 
 Sitemap: https://liuxiaohanhanzi.top/sitemap.xml
-Sitemap: https://liuxiaohanhanzi.top/baidusitemap.xml
