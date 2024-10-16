@@ -143,9 +143,9 @@
             <title>Hexo部署&amp;域名绑定</title>
             <link>https://liuxiaohanhanzi.top/blog-construction/Hexo%E9%83%A8%E7%BD%B2-%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/</link>
             <category term="博客搭建" scheme="https://liuxiaohanhanzi.top/categories/blog-construction/" />
-            <category term="github" scheme="https://liuxiaohanhanzi.top/tags/github/" />
             <category term="hexo" scheme="https://liuxiaohanhanzi.top/tags/hexo/" />
             <category term="shoka" scheme="https://liuxiaohanhanzi.top/tags/shoka/" />
+            <category term="github" scheme="https://liuxiaohanhanzi.top/tags/github/" />
             <category term="网络" scheme="https://liuxiaohanhanzi.top/tags/%E7%BD%91%E7%BB%9C/" />
             <pubDate>Sun, 13 Oct 2024 23:09:10 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;参考&lt;a href=&#34;https://easyhexo.com/1-Hexo-install-and-config/1-4-deploy-hexo.html&#34;&gt; Hexo 官方文档&lt;/a&gt;&lt;/p&gt;
