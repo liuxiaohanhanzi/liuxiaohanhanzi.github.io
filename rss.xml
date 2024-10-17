@@ -10,11 +10,314 @@
         </author>
         <description>What is &#34;LOVE&#34; ?</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 17 Oct 2024 00:23:00 +0800</pubDate>
-        <lastBuildDate>Thu, 17 Oct 2024 00:23:00 +0800</lastBuildDate>
+        <pubDate>Thu, 17 Oct 2024 20:36:44 +0800</pubDate>
+        <lastBuildDate>Thu, 17 Oct 2024 20:36:44 +0800</lastBuildDate>
         <category term="量化" />
         <category term="计算机" />
         <category term="Python" />
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/social-media-account/wxid%E5%8A%A0%E5%A5%BD%E5%8F%8B/</guid>
+            <title>wxid加好友</title>
+            <link>https://liuxiaohanhanzi.top/social-media-account/wxid%E5%8A%A0%E5%A5%BD%E5%8F%8B/</link>
+            <category term="社交媒体账号" scheme="https://liuxiaohanhanzi.top/categories/social-media-account/" />
+            <category term="网络" scheme="https://liuxiaohanhanzi.top/tags/%E7%BD%91%E7%BB%9C/" />
+            <pubDate>Thu, 17 Oct 2024 20:36:44 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;记录时间：2024.10&lt;/p&gt;
+&lt;p&gt;博主用微信不是很深入，近两天凑巧碰到一个问题：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;只知道对方的默认微信 id（即格式为 wxid_xxxxxx），怎么添加好友&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;直接添加竟然搜不到对方…… 腾讯你妈死んだ&lt;/p&gt;
+&lt;h1 id=&#34;wxid转二维码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#wxid转二维码&#34;&gt;#&lt;/a&gt; wxid 转二维码&lt;/h1&gt;
+&lt;p&gt;具体工程文件在 github 上，但是没用了。&lt;/p&gt;
+&lt;p&gt;微信通过特别的加密算法，其二维码名片已经不是直白的 QR code 转换了&lt;/p&gt;
+&lt;h1 id=&#34;手动超链接&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#手动超链接&#34;&gt;#&lt;/a&gt; 手动超链接&lt;/h1&gt;
+&lt;p&gt;在 b 站上找到的，之前似乎有用，但是已被修复，格式如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;a href=&#34;weixin ://contacts/profile/wxid替换位置&#34;＞加我好友&amp;lt;/a &gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;将修改好的代码发送到微信任意聊天框中，点击 —— 寄，点不开&lt;/p&gt;
+&lt;h1 id=&#34;rootadb指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rootadb指令&#34;&gt;#&lt;/a&gt; root＋adb 指令&lt;/h1&gt;
+&lt;p&gt;博主使用了雷电模拟器＋magisk＋LSPosed，然后在环境内安装 “爱玩机工具箱”（注：工具箱初次加载需要科学上网），安装微信，登陆账号。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;v2-1ba3d1106e9e614fda2d4ae66c0225e9_720w.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然后在工具箱的 “一个终端” 模块中，运行一下 abd 指令：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;v2-29fdb4999c93a087a804680e6d33159a_720w.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;am start &lt;span class=&#34;token parameter variable&#34;&gt;-n&lt;/span&gt; com.tencent.mm/com.tencent.mm.ui.chatting.ChattingUI &lt;span class=&#34;token parameter variable&#34;&gt;--ei&lt;/span&gt; Chat_Mode &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--es&lt;/span&gt; Chat_User wxid_xxxxx&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;wxid_xxxx 替换为你要加的对方的 id。这里题主还 debug 了半小时……qq 图片转文字把 ChattingUI 写成 ChattingUl 了（正确的是大写字母 i，而不是小写字母 l）&lt;/p&gt;
+&lt;p&gt;然后！你就能找到对方的名片了！！！&lt;/p&gt;
+&lt;p&gt;我本来已经开香槟了&lt;/p&gt;
+&lt;p&gt;但这里博主拿自己默认 wxid 的小号进行了测试，&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;发现该方法下，你可以发出申请，但是对方收不到…… 对方没有好友申请提示。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;淘宝成功方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#淘宝成功方法&#34;&gt;#&lt;/a&gt; 淘宝（成功方法）&lt;/h1&gt;
+&lt;p&gt;到这里博主放弃自己努力了，打听了一下自由之翼的某种方法，需求为 “默认 wxid —&amp;gt; 手机号”&lt;/p&gt;
+&lt;p&gt;能接的报价在 35u~1800¥，不值得&lt;/p&gt;
+&lt;p&gt;然而，博主最后在万能的淘宝上终于找到一家平价且靠谱的店，&lt;/p&gt;
+&lt;p&gt;技术上似乎是使用苹果系统来 hook。&lt;/p&gt;
+&lt;p&gt;tb 店名此处不发布啦，大家可以自己找找&lt;/p&gt;
+&lt;p&gt;10¥，博主小号测试过了，有效，而且很快不墨迹。&lt;/p&gt;
+&lt;h1 id=&#34;结尾&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#结尾&#34;&gt;#&lt;/a&gt; 结尾&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;v2-c47ec93000acddd15be8380595b514b4_720w.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;添加图片注释，不超过 140 字（可选）&lt;/p&gt;
+&lt;p&gt;对方至今依然没有通过好友申请，&lt;/p&gt;
+&lt;p&gt;但是一步步琢磨到现在，其实执念已经不在对方身上了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“没有人知道，自己错过了什么。”&lt;/em&gt; —— 提斯雷尔的笔记末页，《寻》&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/quant/strategy/%E7%BD%91%E6%A0%BC%E6%AD%A2%E7%9B%88%E7%AD%96%E7%95%A5/</guid>
+            <title>网格止盈策略</title>
+            <link>https://liuxiaohanhanzi.top/quant/strategy/%E7%BD%91%E6%A0%BC%E6%AD%A2%E7%9B%88%E7%AD%96%E7%95%A5/</link>
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/categories/quant/" />
+            <category term="策略" scheme="https://liuxiaohanhanzi.top/categories/quant/strategy/" />
+            <category term="金融" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%91%E8%9E%8D/" />
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%8F%E5%8C%96/" />
+            <pubDate>Thu, 17 Oct 2024 15:32:25 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;本次重点学习的内容是止盈。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1jv411q7i6/?spm_id_from=333.788&amp;amp;vd_source=f1ca15853acdc3688748c975c8512572&#34;&gt;止盈学习视频&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;重点内容 —— 止盈法总结：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;设置预期年化收益率区间 [10%，15%]&lt;/li&gt;
+&lt;li&gt;盈利达到下限，即开始参考宽基指数的估值，是否被高估 or 低估；低估或适中则继续持有；高估时就分批止盈。建议第一次卖出比例在 50% 以下；&lt;/li&gt;
+&lt;li&gt;如后续继续上涨，上涨幅度达到 5%~10%（看个人投资风格），则第二次卖出，此时应比第一次比例更多（点位更高风险更高，卖出应更多）&lt;/li&gt;
+&lt;li&gt;大幅回撤或达到预期收益上限，卖出所有离场。（关注买卖盘量）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上。其实与止盈相对应该也要设置风控止损位，后面有时间再学习。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/quant/finance/%E9%87%91%E8%9E%8D%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89/</guid>
+            <title>金融学习笔记（三）</title>
+            <link>https://liuxiaohanhanzi.top/quant/finance/%E9%87%91%E8%9E%8D%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89/</link>
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/categories/quant/" />
+            <category term="金融知识" scheme="https://liuxiaohanhanzi.top/categories/quant/finance/" />
+            <category term="金融" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%91%E8%9E%8D/" />
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%8F%E5%8C%96/" />
+            <pubDate>Thu, 17 Oct 2024 15:23:39 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;k线&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#k线&#34;&gt;#&lt;/a&gt; K 线&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=k30GIQ0Asdc&#34;&gt;视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一个视频就讲的很清楚&lt;/p&gt;
+&lt;h1 id=&#34;pb市净率&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pb市净率&#34;&gt;#&lt;/a&gt; PB（市净率）&lt;/h1&gt;
+&lt;p&gt;市净率衡量的是股票价格相对于公司每股净资产的倍数。公式是：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mstyle mathsize=&#34;1.2em&#34;&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\large PB=\dfrac{stock\_price}{net\_asset\_per\_share}
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.82em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal sizing reset-size6 size7&#34; style=&#34;margin-right:0.05017em;&#34;&gt;PB&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel sizing reset-size6 size7&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.8685em;vertical-align:-1.1952em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size6 size7&#34;&gt;&lt;span class=&#34;mopen nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3944em;&#34;&gt;&lt;span style=&#34;top:-2.514em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;sse&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;er&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;ha&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;re&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.43em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.9em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;oc&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03148em;&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;ce&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.996em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;该指标可反映公司股价是否相对于其资产价值。&lt;/p&gt;
+&lt;p&gt;一般而言：PB 低 =&amp;gt; 股价相对资产较便宜 =&amp;gt; 投资机会&lt;/p&gt;
+&lt;h1 id=&#34;xshg-和-xshe&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#xshg-和-xshe&#34;&gt;#&lt;/a&gt; XSHG 和 XSHE&lt;/h1&gt;
+&lt;p&gt;XSHG 后缀代表上交所，XSHE 后缀代表深交所。&lt;/p&gt;
+&lt;p&gt;之所以这么奇怪源于 ISO 10383 标准，全球统一交易所标识。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以这样记忆：&lt;/p&gt;
+&lt;p&gt;XSH&lt;strong&gt;G&lt;/strong&gt;：Shan&lt;strong&gt;g&lt;/strong&gt;hai&lt;/p&gt;
+&lt;p&gt;XSH&lt;strong&gt;E&lt;/strong&gt;：Sh&lt;strong&gt;e&lt;/strong&gt;nzhen&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;前复权后复权动态复权&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前复权后复权动态复权&#34;&gt;#&lt;/a&gt; 前复权，后复权，动态复权&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1bj41147pu/?vd_source=f1ca15853acdc3688748c975c8512572&#34;&gt;复权学习视频&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;** 动态复权（真实）模式：** 即在不同的历史时刻按当时的复权因子进行前复权。这也导致在不同日期看到的前复权价格是不一样的。 所以不要跨日期缓存相关结果。&lt;/p&gt;
+&lt;h1 id=&#34;马丁策略&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#马丁策略&#34;&gt;#&lt;/a&gt; 马丁策略&lt;/h1&gt;
+&lt;p&gt;具体内容不在此处赘述，就是倍投。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;通过倍投，将正向收益概率不断扩大为 99.99…%，收益不变；将负面收益的概率不断缩小为 0.00…1%，亏损逐渐增大为天文数字。事实上，你最终收益的数学期望是不变的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;次贷危机&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#次贷危机&#34;&gt;#&lt;/a&gt; 次贷危机&lt;/h1&gt;
+&lt;p&gt;具体学习内容参考：&lt;a href=&#34;https://www.bilibili.com/video/BV1T1421t7B7/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=f1ca15853acdc3688748c975c8512572&#34;&gt;次贷危机学习视频&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;谈谈我的理解：所谓的金融证券化收入，本质可以看作两种 ——&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用当下的金钱买未来的金钱（类似于文明 6 中的 “回合金” 与 “现金” 交易）。价值投资也好，股票交易，债券买卖，翻译一下就是 “滴水之恩当涌泉相报”。&lt;/li&gt;
+&lt;li&gt;对赌，最经典如保险，用概率获取收益。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;财富自由，即被动收入覆盖日常开销，我认为大概本质就是如此吧 —— 在过去和当下，购买投资，得到了未来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;价值投资&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#价值投资&#34;&gt;#&lt;/a&gt; 价值投资&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;价值投资&lt;/strong&gt;的总体概念就是：市场有时会低估某些优质资产，寻找并购买这些股票，在其价格回归到和价值匹配时实现盈利。&lt;/p&gt;
+&lt;p&gt;价值投资有几个核心概念：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;1. 能力圈：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;不懂的领域不乱投资。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这个是配合 “估值” 的，在可以理解的投资方式之间选择回报更高的那个。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 安全边际：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在购买资产时，所支付的价格最好低于资产真正价值。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;一方面是赚的更多，另一方面是为了降低风险。价值 100 元的股票，你以 70 元的价格买入。就算市场波动 or 公司业绩小幅下滑，你的投资依然有缓冲空间。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 估值：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;比较不同投资选择之间的收益高低，而不是精确计算。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这是价投的核心。装比点说就是：“追求模糊的正确，而不是精确的错误”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. 正确面对市场波动：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;有人纠结 “没在最低最低点买，最高最高点卖”，别这样，浪费精力于时间。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;人无法算无遗策。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;roe&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#roe&#34;&gt;#&lt;/a&gt; ROE&lt;/h1&gt;
+&lt;p&gt;ROE 即净资产收益率，即净利润 / 平均净资产。公式是：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mstyle mathsize=&#34;1.2em&#34;&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\large ROE=\dfrac{net\_profit}{average\_net\_asset}
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.82em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal sizing reset-size6 size7&#34; style=&#34;margin-right:0.05764em;&#34;&gt;ROE&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel sizing reset-size6 size7&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.8685em;vertical-align:-1.1952em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size6 size7&#34;&gt;&lt;span class=&#34;mopen nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3944em;&#34;&gt;&lt;span style=&#34;top:-2.514em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;er&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;sse&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.43em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.9em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;ro&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.996em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;参考巴菲特，他投资的都是 ROE&amp;gt;20% 的企业。同净利润情况下，企业的净资产越低，说明企业有其他牛逼的能力能赚取利润。巴菲特称这些账面上体现不出来的能力为经济商誉。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“这真是一种矛盾，你不会从账本中看到这一点。真正让人期待的企业，是那种无须提供任何资本便能运作的企业。因为已经证实，金钱不会让任何人在与这个企业的竞争中获得优势，这样的企业就是伟大的企业。”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;（股东权益 = 企业净资产）&lt;/p&gt;
+&lt;p&gt;ROE 即自有资金的赚钱效率。ROE 越高，代表这种赚钱效率越高。&lt;/p&gt;
+&lt;h1 id=&#34;杜邦分析法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#杜邦分析法&#34;&gt;#&lt;/a&gt; 杜邦分析法&lt;/h1&gt;
+&lt;p&gt;将 ROE 的计算公式拆解，其中插入销售收入、平均总资产：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mstyle mathsize=&#34;1.2em&#34;&gt;&lt;mi&gt;R&lt;/mi&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;u&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mo&gt;×&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\large ROE=\dfrac{net\_profit}{sales\_revenue}\times\frac{sales\_revenue}{average\_total\_asset}\times\frac{average\_total\_asset}{average\_net\_asset}
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.82em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal sizing reset-size6 size7&#34; style=&#34;margin-right:0.05764em;&#34;&gt;ROE&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel sizing reset-size6 size7&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.8685em;vertical-align:-1.1952em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size6 size7&#34;&gt;&lt;span class=&#34;mopen nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3944em;&#34;&gt;&lt;span style=&#34;top:-2.514em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;es&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;re&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.43em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.9em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;ro&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.10764em;&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.996em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin sizing reset-size6 size7&#34;&gt;×&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.8685em;vertical-align:-1.1952em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size6 size7&#34;&gt;&lt;span class=&#34;mopen nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3944em;&#34;&gt;&lt;span style=&#34;top:-2.514em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;er&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;sse&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.43em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.9em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;es&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;re&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;u&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.996em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin sizing reset-size6 size7&#34;&gt;×&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.8685em;vertical-align:-1.1952em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size6 size7&#34;&gt;&lt;span class=&#34;mopen nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3944em;&#34;&gt;&lt;span style=&#34;top:-2.514em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;er&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;sse&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.43em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.9em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;er&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;sse&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.996em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;ROE 即变为净利润率、总资产周转率、财务杠杆系数。这也对应三种企业模式：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;** 净利润率高：** 差异化策略。商品具有差异化（小众、品牌效应），具有护城河。如 “定制香水”、“茅台”&lt;/li&gt;
+&lt;li&gt;** 总资产周转率高：** 成本领先战略，也就是薄利多销。企业管理层效率高，营运能力好。如连锁超市&lt;/li&gt;
+&lt;li&gt;** 高杠杆模式：** 企业负债高，风险大。如银行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;投资时，除了选择五年平均 ROE 高的，还要关注企业负债率。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/quant/finance/%E9%87%91%E8%9E%8D%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</guid>
+            <title>金融学习笔记（二）</title>
+            <link>https://liuxiaohanhanzi.top/quant/finance/%E9%87%91%E8%9E%8D%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</link>
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/categories/quant/" />
+            <category term="金融知识" scheme="https://liuxiaohanhanzi.top/categories/quant/finance/" />
+            <category term="金融" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%91%E8%9E%8D/" />
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%8F%E5%8C%96/" />
+            <pubDate>Thu, 17 Oct 2024 15:20:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;爆仓&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#爆仓&#34;&gt;#&lt;/a&gt; 爆仓&lt;/h1&gt;
+&lt;p&gt;爆仓是在投资中，亏损到无法承受的程度，账户里的资金已经不足以继续持有你的投资了。特别是在用杠杆交易时，一旦账户里的钱不够覆盖亏损，你的仓位就会被强制平仓，这就是爆仓。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;比如：你拿了一笔钱去投资，但是为了放大收益，你还借了一些钱。市场不如预期，亏损逐渐增加，最后你连本金都亏得差不多了，借的钱也快赔不起了，系统就会自动帮你卖掉所有的投资来止损，这就是爆仓。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;杠杆&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#杠杆&#34;&gt;#&lt;/a&gt; 杠杆&lt;/h1&gt;
+&lt;p&gt;杠杆就是用少量的钱去撬动更大的投资，就像用杠杆撬动重物一样。它让你用自己的一部分资金，加上借来的资金，进行更大规模的交易。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;杠杆工具主要有几种，常见的包括融资融券、期货、外汇保证金交易和差价合约（CFD）。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;1. 融资融券&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这是股票市场上的常用杠杆工具。融资就是你向券商借钱买股票，融券则是你借股票来卖空。如果股票涨了，融资能赚更多；融券则是希望股票跌。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;2. 期货&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;期货是合约形式的交易，允许你用保证金（一部分钱）控制大额资产。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;3. 外汇保证金交易&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;和期货类似，你用少量资金来控制更多的外汇投资，剩下的由平台借给你。汇率变化通常较小，杠杆让微小的价格波动也能带来较大的收益或损失。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;期权&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#期权&#34;&gt;#&lt;/a&gt; 期权&lt;/h1&gt;
+&lt;p&gt;期权是一种合约，它给了你在未来某个时间以某个价格买入或者卖出某种资产的&lt;strong&gt;权利&lt;/strong&gt;，但并不是义务；可以把它理解成买一个 “选择权”，而不是必须去做这笔交易。&lt;/p&gt;
+&lt;p&gt;期权分为两种：&lt;strong&gt;看涨期权&lt;/strong&gt;和&lt;strong&gt;看跌期权&lt;/strong&gt;。看涨期权是你有权在未来以一个确定的价格买入某个资产，如股票；看跌期权则是你有权以一个确定的价格卖出资产。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;比如：你看好某个股票未来会上涨，现在价格是 100 块，你可以买一个看涨期权 —— 未来可以用 110 块的价格买入。如果股票真的涨到了 150 块，你用 110 块买入，然后在市场上卖 出，你就赚了。而如果股票没有涨，你就可以选择不买，最多损失的是你买期权的费用。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;合约&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#合约&#34;&gt;#&lt;/a&gt; 合约&lt;/h1&gt;
+&lt;p&gt;合约（Future）其实就是一种协议，双方约定在未来某个时间，按照预定的条件买卖某种资产。常见的合约就是&lt;strong&gt;期货合约&lt;/strong&gt;和&lt;strong&gt;期权合约&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;合约在股票市场即期货（期权），叫法不同而已&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;期货合约是买卖双方都必须在未来某个时间，以约定的价格买入或卖出某种资产&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;期权合约给了你一个选择权，你有权决定是否执行这个合约，但不是必须的。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;平仓&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#平仓&#34;&gt;#&lt;/a&gt; 平仓&lt;/h1&gt;
+&lt;p&gt;平仓就是结束你在某个交易中的持仓，也就是把之前的买入或卖出操作反向操作一次，从而关闭这个合约。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;这个术语在合约交易中用得比较多&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;头寸&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#头寸&#34;&gt;#&lt;/a&gt; 头寸&lt;/h1&gt;
+&lt;p&gt;头寸（Position）是你在某个市场中持有的投资或交易量。它可以是买入的数量，也可以是卖出的数量。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;多头头寸&lt;/strong&gt;：如果你买了 100 股某公司股票，你就有了 100 股的多头头寸。你希望股票价格上涨，这样你可以通过卖出获利。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;空头头寸&lt;/strong&gt;：如果你卖空了 50 股股票，期望股票价格下跌，从而可以在未来以更低的价格买回，赚取差价。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;与仓位不同的是，仓位往往指资产的配置百分比和风险暴露。&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&#34;庄家策略&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#庄家策略&#34;&gt;#&lt;/a&gt; 庄家策略&lt;/h1&gt;
+&lt;p&gt;也就是砸盘，吸筹，拉升，出货&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;砸盘&lt;/strong&gt;：指大规模卖出资产，导致价格迅速下跌。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;吸筹&lt;/strong&gt;：指在市场价格较低时，悄悄买入大量资产。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;拉升&lt;/strong&gt;：指通过大量买入资产，推动其价格上涨。目的是制造出上涨的假象以吸引散户投资者。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;出货&lt;/strong&gt;：指在价格上涨到一定水平后，大量卖出资产以实现利润。&lt;/p&gt;
+&lt;h1 id=&#34;lasso和ridge回归区别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lasso和ridge回归区别&#34;&gt;#&lt;/a&gt; Lasso 和 Ridge 回归区别&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Lasso&lt;/strong&gt;：由于 L1 正则化的特性，Lasso 在处理多重共线性时会随机选择其中一个相关特征，并将其他相关特征系数设为 0。因此 Lasso 可以得到稀疏解；在特征高度相关时，其表现不稳定。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ridge&lt;/strong&gt;：L2 正则化不会使系数变为 0，它会缩小系数，但不会产生稀疏性。因此 Ridge 不会自动执行特征选择；在处理多重共线性时表现更好，可以保留所有相关信息。&lt;/p&gt;
+&lt;h1 id=&#34;期货&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#期货&#34;&gt;#&lt;/a&gt; 期货&lt;/h1&gt;
+&lt;p&gt;最早的期货市场诞生于农产品交易，比如农民和商人之间约定在未来某个时间以固定价格交付一定量的粮食。这种合约能避免因为市场波动导致的损失。这是期货的 “本意”，即作为一种风险管理工具来稳定生产交易。&lt;/p&gt;
+&lt;p&gt;然而随着金融市场的发展，期货不再仅仅是为了促进实体经济生产的工具，逐渐演变成了&lt;strong&gt;杠杆化的金融工具&lt;/strong&gt;。很多交易者利用期货进行投机和短期交易，而不仅仅是为了对冲风险。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/quant/finance/%E9%87%91%E8%9E%8D%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</guid>
+            <title>金融学习笔记（一）</title>
+            <link>https://liuxiaohanhanzi.top/quant/finance/%E9%87%91%E8%9E%8D%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/</link>
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/categories/quant/" />
+            <category term="金融知识" scheme="https://liuxiaohanhanzi.top/categories/quant/finance/" />
+            <category term="金融" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%91%E8%9E%8D/" />
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%8F%E5%8C%96/" />
+            <pubDate>Thu, 17 Oct 2024 14:51:53 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;同比与环比&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#同比与环比&#34;&gt;#&lt;/a&gt; 同比与环比&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;同比&lt;/strong&gt;是指与去年同一时期相比的变化。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;例如比较 2024 年 9 月和 2023 年 9 月的数据，这就是同比比较。它可以帮助判断一年内的季节性和长期趋势&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;环比&lt;/strong&gt;是指与上一周期相比的变化。周期可以是月、季度、甚至周。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;例如比较 2024 年 9 月和 2024 年 8 月的数据，这就是环比比较。环比更能反映短期的变化趋势&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;总体而言，&lt;strong&gt;同比&lt;/strong&gt;是与去年同期相比，&lt;strong&gt;环比&lt;/strong&gt;是与上一个周期相比。&lt;/p&gt;
+&lt;h1 id=&#34;市盈率&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#市盈率&#34;&gt;#&lt;/a&gt; 市盈率&lt;/h1&gt;
+&lt;p&gt;又称 pe_ratio，表示投资者为每单位公司利润所支付的价格，公式如下：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mstyle mathsize=&#34;1.2em&#34;&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;_&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;mi&gt;S&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\large PE= \dfrac{stock\_price}{EPS}
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.82em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal sizing reset-size6 size7&#34; style=&#34;margin-right:0.05764em;&#34;&gt;PE&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel sizing reset-size6 size7&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.4965em;vertical-align:-0.8232em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord sizing reset-size6 size7&#34;&gt;&lt;span class=&#34;mopen nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.3944em;&#34;&gt;&lt;span style=&#34;top:-2.514em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05764em;&#34;&gt;EPS&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.43em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.9em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;oc&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03148em;&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;mord&#34; style=&#34;margin-right:0.02778em;&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;p&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;ce&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.686em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter sizing reset-size7 size6&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EPS&lt;/strong&gt; 为公司在某一段时间内（通常是过去 12 个月）的净利润除以总股数&lt;/p&gt;
+&lt;p&gt;pe_ratio 即：每股的价格 / 每股的收益&lt;/p&gt;
+&lt;p&gt;市盈率反映投资人对每元净利润所愿支付的价格，用来估计股票的市场信心。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;市盈率可以通俗地理解为&lt;strong&gt;你花多少钱买公司每赚一块钱&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;比如，如果某只股票的市盈率是 20，那么这意味着你需要花 20 块钱去买下这家公司每年赚的 1 块钱利润。换句话说，你的投资回本期望是 20 年&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;市盈率高 = 大家愿意花更多钱买公司未来的增长&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;市盈率低 = 大家可能觉得公司未来前景不佳，或者暂时有风险&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;当年度累计cpi&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#当年度累计cpi&#34;&gt;#&lt;/a&gt; 当年度累计 CPI&lt;/h1&gt;
+&lt;p&gt;是指从年初到当前时间点的 CPI（累计物价变化水平）&lt;/p&gt;
+&lt;h1 id=&#34;ttm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ttm&#34;&gt;#&lt;/a&gt; TTM&lt;/h1&gt;
+&lt;p&gt;全称是 “Trailing Twelve Months”，翻译成中文就是 “过去十二个月”。这个时间指标更全面客观，跨越淡季旺季。&lt;/p&gt;
+&lt;h1 id=&#34;st股票&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#st股票&#34;&gt;#&lt;/a&gt; ST 股票&lt;/h1&gt;
+&lt;p&gt;指在中国 A 股市场上，被特别处理（Special Treatment）的股票。股票前面加上 “ST” 标志，意味着这家公司在财务或其他方面存在问题，比如连续两年亏损或者存在重大财务风险。st 股票会受到一些交易限制，比如股票涨跌幅的限制更严格，一般是 5%，而不是正常股票的 10%&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;ST 股票含有&lt;/em&gt; &lt;em&gt;退市的高风险 和 化身 “摘帽股” 的高回报&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;沪深300-中证500-中证800-中证1000&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#沪深300-中证500-中证800-中证1000&#34;&gt;#&lt;/a&gt; 沪深 300、中证 500、中证 800、中证 1000&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;沪深 300&lt;/strong&gt; 是由上海证券交易所和深圳证券交易所的 300 只股票组成的一个股票指数。它被用来反映中国 A 股市场的整体表现。沪深 300 指数选择的都是在两市中市值最大、流动性最好的公司，代表了中国股票市场中的 “龙头” 企业。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;可以把沪深 300 指数看作整个中国股市 “各行各业优质大公司” 的一个代表，对应大盘股（即行业龙头和蓝筹公司&lt;/em&gt; *）*&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;中证 500&lt;/strong&gt; 包含了沪深 300 指数之外市值排名靠前的 500 家中型公司&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中证 800&lt;/strong&gt; 包括了沪深 300 中的大盘股和中证 500 中的中盘股，总共 800 只股票&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;中证 800 其能更全面地衡量整个股市&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;中证 1000&lt;/strong&gt; 指数则聚焦于市值相对较小的 1000 只股票，也就是小盘股。这类股票通常波动性较大，风险也较高，但同时也可能有较大的成长潜力。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;但它不能像沪深 300 或中证 800 那样反映整个市场的综合表现&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;etf&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#etf&#34;&gt;#&lt;/a&gt; ETF&lt;/h1&gt;
+&lt;p&gt;全称 Exchange-Traded Fund，即交易型开放式指数基金。ETF 是一种在证券交易所上市并进行交易的投资基金，像股票一样可以在市场上买卖。&lt;/p&gt;
+&lt;h1 id=&#34;多头操作-空头操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多头操作-空头操作&#34;&gt;#&lt;/a&gt; 多头操作、空头操作&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;多头操作&lt;/strong&gt;是指投资者预期市场价格会上涨，因此买入资产（比如股票、期货等）以期望未来价格上涨后卖出获利的投资策略。这是一种 “先买后卖” 的操作思路，通常适用于看好市场前景。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;多头的核心思想就是 “低买高卖&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;空头操作&lt;/strong&gt;是投资者预期市场价格下跌时采取的一种投资策略。投资者先借入资产（如股票）卖出，等价格下跌后再买入相同数量的资产归还，从而赚取差价。这种操作通常称为 “做空”。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;简单来说就是 “先卖后买” 的操作&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;蓝筹公司与蓝筹股&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蓝筹公司与蓝筹股&#34;&gt;#&lt;/a&gt; 蓝筹公司与蓝筹股&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;蓝筹公司&lt;/strong&gt;指的是那些在行业内有良好声誉、业绩稳定、规模较大、财务状况健康的公司。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;蓝筹股所在的公司往往在行业中处于领导地位，如金融、能源、消费品等领域的大型企业。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;蓝筹股&lt;/strong&gt;是指那些由蓝筹公司发行的股票，通常是规模大、业绩稳定、财务状况健康的公司股票。蓝筹股的特点是股价相对稳定，波动较小，同时具有较强的分红能力，适合长期投资者。&lt;/p&gt;
+&lt;p&gt;之所以被称为 “蓝筹”，来源于赌场中最有价值的筹码是蓝色的，寓意这些财产在股市中也是 “最有价值” 的&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;蓝筹股在市场中通常被认为是低风险的投资选择，尽管回报可能不会像成长股那样迅速，但它们的稳定性和抗风险能力可以在市场动荡中获得较为稳健的收益。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://liuxiaohanhanzi.top/blog-construction/hexo%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F%E6%8C%87%E5%8D%97/</guid>
             <title>hexo图片大小指南</title>
@@ -23,7 +326,7 @@
             <category term="hexo" scheme="https://liuxiaohanhanzi.top/tags/hexo/" />
             <category term="shoka" scheme="https://liuxiaohanhanzi.top/tags/shoka/" />
             <pubDate>Thu, 17 Oct 2024 00:23:00 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;强迫者请自助&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;强迫症患者请自助&lt;/p&gt;
 &lt;h1 id=&#34;封面图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#封面图&#34;&gt;#&lt;/a&gt; 封面图&lt;/h1&gt;
 &lt;p&gt;首先，博主的显示器是 2560*1600，放大 150%&lt;/p&gt;
 &lt;p&gt;扒源代码易得封面轮播图的长度占浏览器窗口的 100%，高度占 70%&lt;/p&gt;
@@ -37,15 +340,15 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241017004542603.png&#34; alt=&#34;image-20241017004542603&#34; /&gt;&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;更近一步的话，可以再将白色波浪的遮挡考虑进来&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241017004955203.png&#34; alt=&#34;image-20241017004955203&#34; /&gt;&lt;br /&gt;
- 上方 header 的高度为 50vh，白色波浪的 &lt;code&gt;class=&amp;quot;waves&amp;quot;&lt;/code&gt;  的高度为 15vh。考虑动态变化，博主认为按时间平均的情况下，40% 的 waves 不会遮挡，那么 (50+15*0.4)÷70=0.8，即从顶部算起，图片高度的 80% 不会被遮挡。据此来裁剪图片到满意的位置。&lt;/p&gt;
+上方 header 的高度为 50vh，白色波浪的 &lt;code&gt;class=&amp;quot;waves&amp;quot;&lt;/code&gt;  的高度为 15vh。考虑动态变化，博主认为按时间平均的情况下，40% 的 waves 不会遮挡，那么 (50+15*0.4)÷70=0.8，即从顶部算起，图片高度的 80% 不会被遮挡。据此来裁剪图片到满意的位置。&lt;/p&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241017004955203.png&#34; alt=&#34;image-20241017004955203&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;文章cover分类图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文章cover分类图&#34;&gt;#&lt;/a&gt; 文章 cover &amp;amp; 分类图&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;文章封面&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241017005849334.png&#34; alt=&#34;image-20241017005849334&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如图，图片长宽比为 2560:1286&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241017193431803.png&#34; alt=&#34;image-20241017193431803&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如图，图片长宽比为 &lt;code&gt;2560:1112&lt;/code&gt; = &lt;code&gt;1000:434&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;精选分类&lt;/li&gt;
 &lt;/ul&gt;
@@ -292,10 +595,10 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://liuxiaohanhanzi.top/privacy/%E9%85%8D%E7%BD%AEgithub%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/social-media-account/%E9%85%8D%E7%BD%AEgithub%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid>
             <title>配置github个人主页</title>
-            <link>https://liuxiaohanhanzi.top/privacy/%E9%85%8D%E7%BD%AEgithub%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</link>
-            <category term="个人信息" scheme="https://liuxiaohanhanzi.top/categories/privacy/" />
+            <link>https://liuxiaohanhanzi.top/social-media-account/%E9%85%8D%E7%BD%AEgithub%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</link>
+            <category term="社交媒体账号" scheme="https://liuxiaohanhanzi.top/categories/social-media-account/" />
             <category term="github" scheme="https://liuxiaohanhanzi.top/tags/github/" />
             <pubDate>Thu, 10 Oct 2024 11:45:14 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;起因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#起因&#34;&gt;#&lt;/a&gt; 起因&lt;/h1&gt;
