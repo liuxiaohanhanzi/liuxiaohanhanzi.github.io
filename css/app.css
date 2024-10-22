@@ -1015,6 +1015,9 @@ body.loaded #brand .pjax,
   margin: 0;
   padding: 0;
 }
+span.mspace.newline {
+  height: 10px;
+}
 html,
 body {
   height: 100%;
