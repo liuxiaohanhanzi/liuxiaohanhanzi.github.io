@@ -10,11 +10,830 @@
         </author>
         <description>What is &#34;LOVE&#34; ?</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 24 Oct 2024 19:02:54 +0800</pubDate>
-        <lastBuildDate>Thu, 24 Oct 2024 19:02:54 +0800</lastBuildDate>
+        <pubDate>Mon, 11 Nov 2024 12:26:22 +0800</pubDate>
+        <lastBuildDate>Mon, 11 Nov 2024 12:26:22 +0800</lastBuildDate>
         <category term="量化" />
         <category term="计算机" />
         <category term="Python" />
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/Zotero%E6%94%BB%E7%95%A5/</guid>
+            <title>Zotero攻略</title>
+            <link>https://liuxiaohanhanzi.top/pc-migration/Zotero%E6%94%BB%E7%95%A5/</link>
+            <pubDate>Mon, 11 Nov 2024 12:26:22 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;趁着重装系统，我把开始使用 Zotero7&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_47885795/article/details/141631652&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;安装好后登录账号进行条目同步，不同步附件。&lt;/p&gt;
+&lt;p&gt;这里在格式方面我自定义了两个 GB/T 格式：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241111184732467.png&#34; alt=&#34;image-20241111184732467&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我选择安装的插件如下：
+&lt;ul&gt;
+&lt;li&gt;快捷引用&lt;/li&gt;
+&lt;li&gt;Zotero 页面布局设计&lt;/li&gt;
+&lt;li&gt;茉莉花&lt;/li&gt;
+&lt;li&gt;翻译器&lt;/li&gt;
+&lt;li&gt;附件管理（将 storage 目录下的文件转移到 zotero_files）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241111184333623.png&#34; alt=&#34;image-20241111184333623&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;个人目前不习惯在 zotero 中记笔记；且还没有用 latex 写过论文，Better BibTex for Zotero 可以先码一下&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;目前 easier citation 安装老版本 0.4.0 才能正常使用…… 等作者 debug 更新&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;记得给 style 配置 easy scholar 的 api key&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;路径设置：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Files\zotero
+&lt;ul&gt;
+&lt;li&gt;PDFtk Server&lt;/li&gt;
+&lt;li&gt;zotero_data&lt;/li&gt;
+&lt;li&gt;zotero_files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;设置好路径：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241111185308978.png&#34; alt=&#34;image-20241111185308978&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241111185321592.png&#34; alt=&#34;image-20241111185321592&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241111185354342.png&#34; alt=&#34;image-20241111185354342&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;最后：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241111185509281.png&#34; alt=&#34;image-20241111185509281&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/Python-Pytorch/</guid>
+            <title>Python&amp;Pytorch</title>
+            <link>https://liuxiaohanhanzi.top/pc-migration/Python-Pytorch/</link>
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
+            <category term="python" scheme="https://liuxiaohanhanzi.top/tags/python/" />
+            <pubDate>Thu, 07 Nov 2024 15:05:50 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;anaconda&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anaconda&#34;&gt;#&lt;/a&gt; Anaconda&lt;/h1&gt;
+&lt;p&gt;这里博主选择 Anaconda 管理 python，注意安装后的系统变量 Path 中应该有：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;E:\study_program\anaconda3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;E:\study_program\anaconda3\Scripts&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;E:\study_program\anaconda3\Library\bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;cmd 测试：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241107212120332.png&#34; alt=&#34;image-20241107212120332&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;pytorch&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pytorch&#34;&gt;#&lt;/a&gt; Pytorch&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_48524984/article/details/140370242&#34;&gt;比较沉静的教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Little_Carter/article/details/135934842&#34;&gt;比较轻佻的教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;版本确认&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#版本确认&#34;&gt;#&lt;/a&gt; 版本确认&lt;/h2&gt;
+&lt;p&gt;我们要适配的版本如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;显卡型号 &amp;amp; Nvidia 驱动版本&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nvidia.cn/drivers/lookup/&#34;&gt;Nvidia 驱动官网&lt;/a&gt;（填入你的显卡型号即可）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nvidia 驱动版本 &amp;amp; CUDA 版本&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html&#34;&gt;Nvidia CUDA 官网&lt;/a&gt;（往下拉到 &lt;code&gt;*Table 3* *CUDA Toolkit and Corresponding Driver Versions&lt;/code&gt; *）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CUDA 版本 &amp;amp; cuDNN 版本&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.nvidia.com/cudnn&#34;&gt;Nvidia cuDNN 官网&lt;/a&gt;（tarball 就是 zip 压缩包，按照 CUDA 版本选择下载即可）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pytorch 版本 &amp;amp; Python 版本&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/pytorch/vision#installation&#34;&gt;torchvision github 官网&lt;/a&gt;（依照着创建 python 虚拟环境）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pytorch 版本 &amp;amp; CUDA 版本&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pytorch.org/get-started/locally/&#34;&gt;Pytorch 官网&lt;/a&gt;（选择环境后获得指令，conda 中激活虚拟环境后运行指令）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h2&gt;
+&lt;p&gt;我们依次安装了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nvidia 驱动：这个很常用，打游戏、做视频时也有其登场&lt;/li&gt;
+&lt;li&gt;CUDA：NVIDIA 推出的并行计算平台和 API 模型，它使显卡可用于图像渲染和计算以外的目的，例如通用并行计算。&lt;/li&gt;
+&lt;li&gt;cuDNN：CUDA 的扩展库，专门针对深度神经网络中的基础操作提供高度优化的实现方式，例如卷积、池化、规范化以及激活层的前向和后向过程。cuDNN 可以大大提高深度学习模型在 GPU 上的运行效率。&lt;/li&gt;
+&lt;li&gt;Python 虚拟环境：使用 anaconda 创建时留意一下 python 版本&lt;/li&gt;
+&lt;li&gt;Pytorch：用于深度学习工作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#测试&#34;&gt;#&lt;/a&gt; 测试&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241107215014548.png&#34; alt=&#34;image-20241107215014548&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;anaconda源配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anaconda源配置&#34;&gt;#&lt;/a&gt; Anaconda 源配置&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://mirror.tuna.tsinghua.edu.cn/help/anaconda/&#34;&gt;清华源官方&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;跟着操作后博主执行以下指令查看 python 包的源链接：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;conda search numpy --info
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;结果既有清华源，也有 repo.anaconda.com 的：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;https://repo.anaconda.com/pkgs/main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;https://repo.anaconda.com/pkgs/r&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;https://repo.anaconda.com/pkgs/msys2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;我怎么知道具体安装时，conda 选择了哪个源啊？&lt;/p&gt;
+&lt;p&gt;—— 最后经查阅资料，博主打开 &lt;code&gt;Anaconda Navigator&lt;/code&gt; ，删除了三个 repo.anaconda.com 源，问题解决。&lt;/p&gt;
+&lt;p&gt;在 Navigator 删除三个源后，我们进行以下测试：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;测试一&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;.condarc 内容：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;channels:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  - defaults&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;show_channel_urls: true&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;default_channels:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;custom_channels:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;此时检测结果：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241108183851542.png&#34; alt=&#34;image-20241108183851542&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：此时我们运行：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;conda config --get channels
+conda config --show channels
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;结果是这样&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241108184256400.png&#34; alt=&#34;image-20241108184256400&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;尽管与很多现有简中教程不符，但是确实 url 地址&lt;strong&gt;是且仅是&lt;/strong&gt;清华源&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;测试二&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;.condarc 内容：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;channels:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  - defaults&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;show_channel_urls: true&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;此时检测结果：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241108183943025.png&#34; alt=&#34;image-20241108183943025&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/NVM-node/</guid>
+            <title>NVM&amp;node</title>
+            <link>https://liuxiaohanhanzi.top/pc-migration/NVM-node/</link>
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
+            <category term="node" scheme="https://liuxiaohanhanzi.top/tags/node/" />
+            <pubDate>Wed, 06 Nov 2024 19:46:10 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;nvmnode&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nvmnode&#34;&gt;#&lt;/a&gt; NVM&amp;amp;node&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/sjp991012/article/details/134426007&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;首先下载安装 nvm，并通过 nvm 安装 node&lt;/p&gt;
+&lt;p&gt;这里博主直接选择了当前最新的 LTS 版本&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106195219539.png&#34; alt=&#34;image-20241106195219539&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;配置好环境变量与镜像源之后，整体路径如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;study_program\nvm
+&lt;ul&gt;
+&lt;li&gt;node_cache&lt;/li&gt;
+&lt;li&gt;node_global
+&lt;ul&gt;
+&lt;li&gt;node_modules&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;nodejs&lt;/li&gt;
+&lt;li&gt;nvm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;pnpm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pnpm&#34;&gt;#&lt;/a&gt; pnpm&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/m0_56416743/article/details/136122153&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;pnpm 全称 performant npm，意思为高性能的 npm。pnpm 解决了 npm/yarn 内部潜在的 bug，极大的优化了性能，通过硬链接减小了内存。&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h2&gt;
+&lt;p&gt;运行以下指令&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;npm install -g pnpm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;安装好的 pnpm 在上一节配置的 &lt;code&gt;nvm\node_global&lt;/code&gt;  文件夹下。我们下面对 pnpm 配置文件夹路径与系统变量：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 全局bin地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set global-bin-dir &#34;E:\Files\pnpm&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 包元数据缓存地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set cache-dir &#34;E:\Files\pnpm\pnpm-cache&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# pnpm-state.json文件（仅由更新检查器使用）地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set state-dir &#34;E:\Files\pnpm\pnpm-state&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 全局依赖目录&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set global-dir &#34;E:\Files\pnpm\global&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 所有包被保存在磁盘上的位置。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;#（操作后，总目录pnpm下不会再生成store文件夹）&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set store-dir &#34;E:\Files\pnpm\pnpm-store&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这样的好处：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;当前系统盘根目录不会产生 pnpm-store 文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C:\Users\liu\AppData\Local\pnpm&lt;/code&gt;  下不会有 store 文件夹&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C:\Users\liu\AppData\Local&lt;/code&gt;  下不会再产生 pnpm-state 与 pnpm-cache 文件夹&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;得到的路径层级如下&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Files\pnpm
+&lt;ul&gt;
+&lt;li&gt;pnpm-cache&lt;/li&gt;
+&lt;li&gt;pnpm-state&lt;/li&gt;
+&lt;li&gt;pnpm-store&lt;/li&gt;
+&lt;li&gt;global&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;pnpm 有两种安装方式，在当前目录安装以及全局安装，这里我们应该尽量在当前目录安装，注册项目依赖。&lt;/p&gt;
+&lt;h2 id=&#34;原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#原理&#34;&gt;#&lt;/a&gt; 原理&lt;/h2&gt;
+&lt;p&gt;花了一个多小时终于搞明白 pnpm 工作原理了。简中没有什么好用的资料，浪费我这么久时间，日勒你妈了&lt;/p&gt;
+&lt;p&gt;简单来说，就是 npm 直接安装包，会重复下载很多包，导致一个 node_modules 特别大。后面 npm 自己也意识到这个问题并试着改进。&lt;/p&gt;
+&lt;h3 id=&#34;链接方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链接方式&#34;&gt;#&lt;/a&gt; 链接方式&lt;/h3&gt;
+&lt;p&gt;要聊这个问题我们先搞清楚什么事硬链接，符号链接和目录链接。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;硬链接&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./c10b65bd444a4a8a92e20e116bce3715.webp&#34; alt=&#34;c10b65bd444a4a8a92e20e116bce3715&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;符号链接&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./9eef5546663740ba9ad72a6544376524.webp&#34; alt=&#34;9eef5546663740ba9ad72a6544376524&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;目录链接&lt;/p&gt;
+&lt;p&gt;有点像快捷方式，实现路径重定向。当访问链接目录时，系统会自动重定向到实际目录&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于查看链接类型与位置，win11 的文件资源管理器做的并不好，这里推荐插件 linkshellextension&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;具体解释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#具体解释&#34;&gt;#&lt;/a&gt; 具体解释&lt;/h3&gt;
+&lt;p&gt;node 包高性能管理究竟是个什么样子，npm 搞了很多年，也并没有完全搞清楚。可能 yarn 的思路比较好，搞了个新文件 yarn.lock，但是后来这个用于版本统一的方式僵化了。&lt;/p&gt;
+&lt;p&gt;pnpm 的思路是，我搞一个全局存储目录 pnpm-store，然后每次 install 时，文件本身是被安装在 pnpm-store 下面的，一串一串乱码做名称，而后每次要使用时链接过来。&lt;/p&gt;
+&lt;p&gt;以在项目根目录 &lt;code&gt;pnpm i lodash&lt;/code&gt;  为例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;首先 lodash 包会被下载到我们配置的 pnpm-store。&lt;/li&gt;
+&lt;li&gt;然后呢，pnpm 会在 json 和 yaml 里注册&lt;/li&gt;
+&lt;li&gt;接着 pnpm 在当前的目录下新建一个 node_modules 文件夹，文件夹里有一个 lodash 文件夹和.pnpm 文件夹。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;lodash 文件夹有个快捷方式符号，是目录链接，路径定向到：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;.\node_modules\.pnpm\lodash@&amp;#123;版本号&amp;#125;\node_modules\lodash\&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这个藏里面的真正的 lodash 文件夹是真的，但是里面的文件是假的，从 pnpm-store 借（硬链接）过来的！&lt;/p&gt;
+&lt;p&gt;梳理一下，所以你真正要用到 lodash 时，是这样：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;要使用文件 ——&amp;gt; .\node_modules\ 文件夹 —(目录链接)—&amp;gt;&lt;/p&gt;
+&lt;p&gt;.pnpm\ 文件夹 \ 具体文件 —(硬链接)—&amp;gt;&lt;/p&gt;
+&lt;p&gt;pnpm-store 下的真正文件，乱码名称&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不管咋说，反正实现了文件的最大利用，节省了内存。同理，全局安装包时，就直接在你的 pnpm-store 下安装，并在 global 目录里注册（对应上面操作 2 和操作 3）&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241107004121507.png&#34; alt=&#34;image-20241107004121507&#34; style=&#34;zoom:67%;margin:15px auto&#34; /&gt;
+&lt;p&gt;当你 &lt;code&gt;pnpm remove lodash&lt;/code&gt;  或 &lt;code&gt;pnpm remove lodash -g&lt;/code&gt;  时，只是删除.\node_modules\ 文件夹！！！所以这个时候真正文件还在 pnpm-store 下，没被删。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里有个问题，官方文档说 &lt;code&gt;pnpm store prune&lt;/code&gt;  指令可以删除 pnpm-store 下不被引用的文件。博主发现就算执行了，删除文件数也是 0；若想真正删除，要求对应文件没有硬链接绑定，即需要手动删除.pnpm 下的文件。注意哦，就算收纳到回收站，硬链接依然在，必须清空回收站才算解除硬链接。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;想删除真正文件释放内存，目前博主认为需要手动删除后，运行代码：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;pnpm store prune
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/Java%E5%A5%97%E8%A3%85/</guid>
+            <title>Java套装</title>
+            <link>https://liuxiaohanhanzi.top/pc-migration/Java%E5%A5%97%E8%A3%85/</link>
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="Java" scheme="https://liuxiaohanhanzi.top/tags/Java/" />
+            <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
+            <pubDate>Wed, 06 Nov 2024 12:59:35 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;博主 IDE 选用 IntelliJ IDEA 2024.1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;多jdk配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多jdk配置&#34;&gt;#&lt;/a&gt; 多 JDK 配置&lt;/h1&gt;
+&lt;p&gt;前往 oracle 官网下载需要 JDK。这里博主考虑到 jdk-8 依然很常用，同时很多项目也有升级的趋势，所以选择 jdk-8 和 jdk-11&lt;/p&gt;
+&lt;p&gt;参考&lt;a href=&#34;https://developer.aliyun.com/article/1592176&#34;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;配置系统环境变量：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CLASSPATH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;.;%java_home%\lib;%java_home%\lib\tools.jar&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;两个子 JAVA_HOME，一个总 JAVA_HOME&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;JAVA8_HOME		C:\Program Files\Java\jdk-1.8&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;JAVA11_HOME		C:\Program Files\Java\jdk-11&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;//需要哪个版本就配置哪个，这里使用jdk-11&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;JAVA_HOME		%JAVA11_HOME%&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;系统 path 中添加路径&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;%JAVA_HOME%\bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;%JAVA_HOME%\jre\bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;记得删除 path 中 jdk 安装程序自动配置的路径，快捷方式文件也可删，不影响运行：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;C:\Program Files (x86)\Common Files\Oracle\Java\java8path&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;C:\Program Files\Common Files\Oracle\Java\javapath&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;cmd 运行指令验证：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;java -version
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106132916813.png&#34; alt=&#34;image-20241106132916813&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;tomcat&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tomcat&#34;&gt;#&lt;/a&gt; Tomcat&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_44697728/article/details/114476174&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;由于博主有用到 jdk-8，根据 Tomcat 官网，选择版本 Tomcat9&lt;/p&gt;
+&lt;p&gt;根据教程，安装，注册 Windows 服务，更改编码为 GBK&lt;/p&gt;
+&lt;p&gt;而后可以新建 Javaweb 项目进行验证&lt;/p&gt;
+&lt;h1 id=&#34;maven配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#maven配置&#34;&gt;#&lt;/a&gt; Maven 配置&lt;/h1&gt;
+&lt;p&gt;这里博主选择使用 idea 捆绑的 maven&lt;/p&gt;
+&lt;h2 id=&#34;系统变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#系统变量&#34;&gt;#&lt;/a&gt; 系统变量&lt;/h2&gt;
+&lt;p&gt;首先打开捆绑的 maven 位置：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;E:\study_program\JetBrains\IntelliJ IDEA 2024.1\plugins\maven\lib\maven3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;windows 搜索高级系统设置，新建系统环境变量 MAVEN_HOME&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;E:\study_program\JetBrains\IntelliJ IDEA 2024.1\plugins\maven\lib\maven3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;系统 Path 中新建&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;%MAVEN_HOME%\bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;命令窗口运行代码验证：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;mvn -v
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106133554465.png&#34; alt=&#34;image-20241106133554465&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;settingsxml配置文件修改&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#settingsxml配置文件修改&#34;&gt;#&lt;/a&gt; settings.xml 配置文件修改&lt;/h2&gt;
+&lt;p&gt;打开目录：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;E:\study_program\JetBrains\IntelliJ IDEA 2024.1\plugins\maven\lib\maven3\conf&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;修改 settings.xml&lt;/p&gt;
+&lt;h3 id=&#34;仓库位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#仓库位置&#34;&gt;#&lt;/a&gt; 仓库位置&lt;/h3&gt;
+&lt;p&gt;避免 jar 包一直存放在 C 盘，localRepository 处加入 maven 仓库位置，以我为例&lt;/p&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;localRepository&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;E:/Files/maven/repository&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;localRepository&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106134054279.png&#34; alt=&#34;image-20241106134054279&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;阿里云镜像仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#阿里云镜像仓库&#34;&gt;#&lt;/a&gt; 阿里云镜像仓库&lt;/h3&gt;
+&lt;p&gt;找到 xml 的 mirrors 配置，在里面添加如下&lt;/p&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- 阿里云仓库 --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;mirror&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;id&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;alimaven&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;id&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;mirrorOf&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;*&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;mirrorOf&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;aliyun maven&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;url&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;http://maven.aliyun.com/nexus/content/repositories/central/&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;url&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;mirror&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106134219240.png&#34; alt=&#34;image-20241106134219240&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;我们上述修改的是全局配置！windows 是多用户操作系统。上述修改可在 idea 设置中查看&lt;/p&gt;
+&lt;p&gt;而文件 &lt;code&gt;C:\Users\***\.m2\settings.xml&lt;/code&gt;  是用户设置！记录当前用户自己的定制（若有），文件可能不存在&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106135002627.png&#34; alt=&#34;image-20241106135002627&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;maven设置完成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#maven设置完成&#34;&gt;#&lt;/a&gt; maven 设置完成&lt;/h2&gt;
+&lt;p&gt;之后进入 maven 项目，maven 就会自动去下载依赖到我们设置的本地的仓库&lt;/p&gt;
+&lt;h1 id=&#34;jar包安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#jar包安装&#34;&gt;#&lt;/a&gt; jar 包安装&lt;/h1&gt;
+&lt;p&gt;这里使用 idea 全局库的方式&lt;/p&gt;
+&lt;p&gt;首先在任意项目的项目设置中定位到全局库，点击加号新建 Java 库，路径填入包含 jar 包的目录&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106193418329.png&#34; alt=&#34;image-20241106193418329&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;而后在以后得项目里，只要在模块 - 依赖中点击加号，导入全局库即可使用 jar 包&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106193933465.png&#34; alt=&#34;image-20241106193933465&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/%E6%9C%AC%E5%9C%B0%E7%94%A8%E6%88%B7%E5%8F%98%E6%9B%B4%E9%97%AE%E9%A2%98/</guid>
+            <title>本地用户变更问题</title>
+            <link>https://liuxiaohanhanzi.top/pc-migration/%E6%9C%AC%E5%9C%B0%E7%94%A8%E6%88%B7%E5%8F%98%E6%9B%B4%E9%97%AE%E9%A2%98/</link>
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="Git" scheme="https://liuxiaohanhanzi.top/tags/Git/" />
+            <category term="hexo" scheme="https://liuxiaohanhanzi.top/tags/hexo/" />
+            <pubDate>Wed, 06 Nov 2024 11:56:23 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;ssh密钥&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ssh密钥&#34;&gt;#&lt;/a&gt; ssh 密钥&lt;/h1&gt;
+&lt;p&gt;首先安装 git，配置好获得秘钥&lt;/p&gt;
+&lt;p&gt;将 ssh 密钥绑定到 github 与 gitee 账户上&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;部分操作可参考&lt;a href=&#34;https://blog.csdn.net/m0_59066523/article/details/139250032&#34;&gt;教程链接&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里我们在 &lt;code&gt;git bash&lt;/code&gt;  输入以下指令验证：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;ssh -T git@github.com
+ssh -T git@gitee.com
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这里出现了问题：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;The authenticity of host ‘github.com (20.205.243.166)‘ can‘t be established&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;参考&lt;a href=&#34;https://blog.csdn.net/renke_edogawa/article/details/138833533&#34;&gt; csdn 教程&lt;/a&gt;，我们了解到是 IP 信任问题&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;无脑输入 yes 其实就可以，但是博主还是选择了最保险的方式&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;在 &lt;code&gt;C:\Users\liu\.ssh&lt;/code&gt;  目录下新建 known_hosts 文件，无后缀。用记事本格式编辑，输入&lt;a href=&#34;https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints&#34;&gt; GitHub 的 SSH 密钥指纹&lt;/a&gt;：&lt;/p&gt;
+&lt;figure class=&#34;highlight tex&#34;&gt;&lt;figcaption data-lang=&#34;TeX&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;github.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQEezOmxkZMy7opKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6v0mKV0U2w0WZ2YB/++Tpockg=&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj7ndNxQowgcQnjshcLrqPEiiphnt+VTTvDP6mHBL9j1aNUkY4Ue1gvwnGLVlOhGeYrnZaMgRK6+PKCUXaDbC7qtbW8gIkhL7aGCsOr/C56SJMy/BCZfxd1nWzAOxSDPgVsmerOBYfNqltV9/hWCqBywINIR+5dIg6JTJ72pcEpEjcYgXkE2YEFXV1JHnsKgbLWNlhScqb2UmyRkQyytRLtL+38TGxkxCflmO+5Z8CSSNY7GidjMIZ7Q4zMjA2n1nGrlTDkzwDCsw+wqFPGQA179cnfGWOWRVruj16z6XyvxvjJwbz0wQZ75XK5tKSb7FNyeIEs4TT4jk+S4dhPeAUC5y+bDYirYgM4GC7uEnztnZyaVWQ7B381AK4Qdrwt51ZqExKbQpTUNn+EjqoTwvqNj4kqx5QUCI0ThS/YkOxJCXmPUWZbhjpCg56i+2aB6CmK2JGhn57K5mj0MNdBXA4/WnwH6XoPWJzK5Nyu2zB3nAZp+S5hpQs+p1vN1/wsjk=&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;同样的，再输入&lt;a href=&#34;https://help.gitee.com/account/gitees-ssh-key-fingerprints&#34;&gt; Gitee SSH 密钥指纹&lt;/a&gt;：&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;gitee.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEKxHSJ7084RmkJ4YdEi5tngynE8aZe2uEoVVsB/OvYN gitee.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMuEoYdx6to5oxR60IWj8uoe1aI0XfKOHWOtLqTg1tsLT1iFwXV5JmFjU46EzeMBV/6EmI1uaRI6HiEPtPtJHE= gitee.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMzG3r+88lWSDK9fyjcZmYsWGDBDmGoAasKMAmjoFloGt9HRQX2Qp4f9FY2XK/hsHYinvoh5Xytl9iaUNUWMfYR8q6VEMtOO87DgoAFcfKZHt0/nbAg9RoNTKYt6v8tPwYpr7N0JP/01nE4LFsNDnstr6H0bXSAzbKWCETLZfdPV4l2uSpRn3bU0ugoZ0aSKz5Dc/IloBfGCTvkSsxUydMRd/Chpjt6VxncDbp+Fa6pzsseK8OQzrg6Fgc5783EN3EQqZ2skqyCwExtx95BJlfx1B3luZnWfpkwNDnrZRT/Qx0OrWqyf0q6f9uQr+UG1S8qDcUn3e/9onq3rwBri8/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;再次验证，成功&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106124212701.png&#34; alt=&#34;image-20241106124212701&#34; style=&#34;zoom: 67%;margin:15px auto&#34; /&gt;
+&lt;h1 id=&#34;operation-not-permitted&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#operation-not-permitted&#34;&gt;#&lt;/a&gt; operation not permitted&lt;/h1&gt;
+&lt;p&gt;博主在博客目录下进行操作时&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hexo 报错：ERROR EPERM: operation not permitted&lt;/li&gt;
+&lt;li&gt;git 报错：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;fatal: detected dubious ownership in repository at &#39;E:/blogger/shokax-can&#39;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&#39;E:/blogger/shokax-can&#39; is owned by:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        (inconvertible) (S-xxx)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;but the current user is:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        MUSAE/liu (S-xxx)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;To add an exception for this directory, call:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        git config --global --add safe.directory E:/blogger/shokax-can&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;参照&lt;a href=&#34;https://blog.csdn.net/tcjy1000/article/details/127129224&#34;&gt;教程&lt;/a&gt;，更改文件夹所有者为当前用户：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106123945684.png&#34; alt=&#34;image-20241106123945684&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;问题解决&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/SQL%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+            <title>SQL数据库</title>
+            <link>https://liuxiaohanhanzi.top/pc-migration/SQL%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
+            <category term="SQL" scheme="https://liuxiaohanhanzi.top/tags/SQL/" />
+            <pubDate>Wed, 06 Nov 2024 11:55:31 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;mysql安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mysql安装&#34;&gt;#&lt;/a&gt; MySQL 安装&lt;/h1&gt;
+&lt;p&gt;这里博主选择 MySQL8.4，当下最新的 LTS 版本。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里查看&lt;a href=&#34;https://blog.csdn.net/molangmolang/article/details/139224625&#34;&gt;教程链接&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;配置好一个环境变量后，这里我们可以在命令行进行验证：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;mysql -u root -p
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;输入密码后，顺利登录&lt;/p&gt;
+&lt;p&gt;查看所有库：&lt;/p&gt;
+&lt;figure class=&#34;highlight sql&#34;&gt;&lt;figcaption data-lang=&#34;SQL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;show&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;databases&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;\g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106120824469.png&#34; alt=&#34;image-20241106120824469&#34; style=&#34;zoom:67%;margin:15px auto&#34; /&gt;
+&lt;p&gt;而后博主安装了 Navicat Premium 17，新建连接，输入密码：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106121134956.png&#34; alt=&#34;image-20241106121134956&#34; style=&#34;zoom:67%;margin:15px auto&#34; /&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/Cpp%E6%8F%92%E4%BB%B6/</guid>
+            <title>Cpp插件</title>
+            <link>https://liuxiaohanhanzi.top/pc-migration/Cpp%E6%8F%92%E4%BB%B6/</link>
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
+            <category term="c++" scheme="https://liuxiaohanhanzi.top/tags/c/" />
+            <pubDate>Wed, 06 Nov 2024 11:52:18 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;easyx&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#easyx&#34;&gt;#&lt;/a&gt; EasyX&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;感谢&lt;a href=&#34;https://blog.csdn.net/Limia40/article/details/138136912&#34;&gt; Limia40 的教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;博主直接使用 CLion 自带的 MinGW，操作如下&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开&lt;a href=&#34;https://easyx.cn/&#34;&gt;官网&lt;/a&gt;，点击右上角更新日志，下载 &lt;code&gt;EasyX_for_MinGW&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;解压&lt;/li&gt;
+&lt;li&gt;将&lt;strong&gt; include&lt;/strong&gt; 文件夹下的 &lt;code&gt;easyx.h&lt;/code&gt;  和 &lt;code&gt;graphics.h&lt;/code&gt;  拷贝到 &lt;code&gt;CLion\bin\mingw\x86_64-w64-mingw32\include&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;将 lib64 下的 &lt;code&gt;libeasyx.a&lt;/code&gt;  拷贝到 &lt;code&gt;Clion\bin\mingw\x86_64-w64-mingw32\lib&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在 CMakeLists.txt 文件下添加以下代码，在 add_executable 之前：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight cmake&#34;&gt;&lt;figcaption data-lang=&#34;CMake&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;link_libraries&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;libeasyx.a&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;以上，可以新建项目运行以下代码进行测试：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;#include &amp;lt;graphics.h&amp;gt;
+#include &amp;lt;conio.h&amp;gt;
+ 
+int main()
+&amp;#123;
+    initgraph(640, 480);
+    circle(320, 240, 100);
+    _getch();
+    return 0;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;结果如下：&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106120141726.png&#34; alt=&#34;image-20241106120141726&#34; style=&#34;width:80%;margin:15px auto&#34; /&gt;
+&lt;h1 id=&#34;vcpkg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vcpkg&#34;&gt;#&lt;/a&gt; Vcpkg&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://wuanwanghao.top/archives/vcpkgclioncmakemingw%E4%BD%BF%E7%94%A8&#34;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下载好并配置完环境变量后，发现必须依赖 visual studio…… 放弃了&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
+            <title>电脑软件清单</title>
+            <link>https://liuxiaohanhanzi.top/pc-migration/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
+            <pubDate>Wed, 06 Nov 2024 11:48:49 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;计算机应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机应用&#34;&gt;#&lt;/a&gt; 计算机应用&lt;/h1&gt;
+&lt;h2 id=&#34;网络&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#网络&#34;&gt;#&lt;/a&gt; 网络&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;clash(C)&lt;/li&gt;
+&lt;li&gt;chrome(C)
+&lt;ul&gt;
+&lt;li&gt;油猴脚本包含 “百度网盘会员青春版”、“雨课堂刷客助手”&lt;/li&gt;
+&lt;li&gt;主页空白页，搜索引擎选择百度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载&#34;&gt;#&lt;/a&gt; 下载&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;360 极速版 &amp;amp; 360 安全管家 (C)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;做好去广告配置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;百度网盘 (D)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JiJiDown(D)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;程序路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D:\program\download
+&lt;ul&gt;
+&lt;li&gt;BaiduNetdisk&lt;/li&gt;
+&lt;li&gt;JJDown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;存储文件路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Files\download_files
+&lt;ul&gt;
+&lt;li&gt;360Downloads
+&lt;ul&gt;
+&lt;li&gt;Vulnerability patch&lt;/li&gt;
+&lt;li&gt;Software&lt;/li&gt;
+&lt;li&gt;360RecycleBin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;BaiduNetdiskDownload&lt;/li&gt;
+&lt;li&gt;JJDown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#工具&#34;&gt;#&lt;/a&gt; 工具&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;WinRAR(D)&lt;/li&gt;
+&lt;li&gt;Everything(D)&lt;/li&gt;
+&lt;li&gt;CCleaner Pro(D)&lt;/li&gt;
+&lt;li&gt;Newgrounds Player(D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：该程序即无广告的 Flash&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Steam++(D)&lt;/li&gt;
+&lt;li&gt;AutoHotkey(D)&lt;/li&gt;
+&lt;li&gt;搜狗输入法 (D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;这里深深感谢 &lt;code&gt;十月姑娘&lt;/code&gt; 的所有皮肤作品，博主用了很多年了。近日重装系统时才发现…… 十月从 22 年开始再无更新，断了音信。如今搜狗为了兜售自己的付费皮肤，甚至把十月的好多作品下架隐藏。&lt;/p&gt;
+&lt;p&gt;我总想抢救一下其存在过的痕迹，至少道句谢吧…… 尝试找搜狗官方寻求联系方式，无果，只能在这里聊表心意 ——&lt;/p&gt;
+&lt;p&gt;与君擦肩，由衷祝愿你一切都好，再次深表谢意。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;生活应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#生活应用&#34;&gt;#&lt;/a&gt; 生活应用&lt;/h1&gt;
+&lt;h2 id=&#34;社交&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#社交&#34;&gt;#&lt;/a&gt; 社交&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;QQ(D)&lt;/li&gt;
+&lt;li&gt;微信 (D)&lt;/li&gt;
+&lt;li&gt;telegram(D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;程序路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;program
+&lt;ul&gt;
+&lt;li&gt;Tencent
+&lt;ul&gt;
+&lt;li&gt;QQNT&lt;/li&gt;
+&lt;li&gt;WeChat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Telegram Desktop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;存储文件路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Files
+&lt;ul&gt;
+&lt;li&gt;QQ Files&lt;/li&gt;
+&lt;li&gt;WeChat Files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;游戏&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#游戏&#34;&gt;#&lt;/a&gt; 游戏&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;steam(D)&lt;/li&gt;
+&lt;li&gt;epic(D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;程序路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D:\game
+&lt;ul&gt;
+&lt;li&gt;Epic Games&lt;/li&gt;
+&lt;li&gt;Steam&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;存储文件路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Games
+&lt;ul&gt;
+&lt;li&gt;Steam Library&lt;/li&gt;
+&lt;li&gt;Epic Games
+&lt;ul&gt;
+&lt;li&gt;Library&lt;/li&gt;
+&lt;li&gt;VaultCache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;音乐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#音乐&#34;&gt;#&lt;/a&gt; 音乐&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;QQ 音乐 (D)&lt;/li&gt;
+&lt;li&gt;网易云音乐 (D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;程序 &amp;amp; 存储路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D:\music
+&lt;ul&gt;
+&lt;li&gt;Apps
+&lt;ul&gt;
+&lt;li&gt;CloudMusic&lt;/li&gt;
+&lt;li&gt;QQMusic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cache
+&lt;ul&gt;
+&lt;li&gt;CloudMusicCache&lt;/li&gt;
+&lt;li&gt;QQMusicCache&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;files
+&lt;ul&gt;
+&lt;li&gt;library&lt;/li&gt;
+&lt;li&gt;很难搞到的高清歌曲&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;艺术&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#艺术&#34;&gt;#&lt;/a&gt; 艺术&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Maya(E)&lt;/li&gt;
+&lt;li&gt;Stable Diffusion(D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;流媒体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#流媒体&#34;&gt;#&lt;/a&gt; 流媒体&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OBS(D)&lt;/li&gt;
+&lt;li&gt;bilibili 直播姬 (D)&lt;/li&gt;
+&lt;li&gt;腾讯会议 (D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;程序路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;program
+&lt;ul&gt;
+&lt;li&gt;Meetings
+&lt;ul&gt;
+&lt;li&gt;WeMeet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Videos
+&lt;ul&gt;
+&lt;li&gt;Apps
+&lt;ul&gt;
+&lt;li&gt;obs-studio&lt;/li&gt;
+&lt;li&gt;bililive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;recordings&lt;/li&gt;
+&lt;li&gt;素材&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;科研工作应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#科研工作应用&#34;&gt;#&lt;/a&gt; 科研 &amp;amp; 工作应用&lt;/h1&gt;
+&lt;h2 id=&#34;办公软件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#办公软件&#34;&gt;#&lt;/a&gt; 办公软件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;WPS2019（大庆党政机关版）(C)&lt;/li&gt;
+&lt;li&gt;Office 全家桶（Word、Excel、Powerpoint、Access、Visio）(C)&lt;/li&gt;
+&lt;li&gt;Adobe 全家桶（Ps、Pr、Au、Acrobat）(E)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pr 安装插件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FilmImpact&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ps 安装插件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Coolorus&lt;/li&gt;
+&lt;li&gt;Better Grids Layout Creation Kit&lt;/li&gt;
+&lt;li&gt;Alpaca&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;金融终端&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#金融终端&#34;&gt;#&lt;/a&gt; 金融终端&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;iFinD(D)&lt;/li&gt;
+&lt;li&gt;Choice(D)&lt;/li&gt;
+&lt;li&gt;币安 (D)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;程序路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D:\Finance
+&lt;ul&gt;
+&lt;li&gt;iFinD&lt;/li&gt;
+&lt;li&gt;Choice&lt;/li&gt;
+&lt;li&gt;Binance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;科研&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#科研&#34;&gt;#&lt;/a&gt; 科研&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Typora(E)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Origin(E)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Origin 存储文件路径如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Files\OriginLab
+&lt;ul&gt;
+&lt;li&gt;Backup&lt;/li&gt;
+&lt;li&gt;Unsaved&lt;/li&gt;
+&lt;li&gt;User Files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;LaTeX（包含 TeXLive、TeXstudio）(E)&lt;/li&gt;
+&lt;li&gt;MATLAB(E)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;编程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#编程&#34;&gt;#&lt;/a&gt; 编程&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Navicat(E)&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/quant/finance/%E5%8A%A0%E6%81%AF-%E9%99%8D%E6%81%AF/</guid>
+            <title>加息&amp;降息</title>
+            <link>https://liuxiaohanhanzi.top/quant/finance/%E5%8A%A0%E6%81%AF-%E9%99%8D%E6%81%AF/</link>
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/categories/quant/" />
+            <category term="金融知识" scheme="https://liuxiaohanhanzi.top/categories/quant/finance/" />
+            <category term="金融" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%91%E8%9E%8D/" />
+            <category term="量化" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%8F%E5%8C%96/" />
+            <pubDate>Mon, 28 Oct 2024 17:11:42 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;通货膨胀&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通货膨胀&#34;&gt;#&lt;/a&gt; 通货膨胀&lt;/h1&gt;
+&lt;p&gt;通货膨胀的直观感觉就是：买东西价格上涨。市场上货币多了，大家手里有钱，就会需求增多，此时生产相对太少&lt;/p&gt;
+&lt;p&gt;衡量通胀一般使用 CPI（消费者物价指数），一般在 2% 一下比较正常&lt;/p&gt;
+&lt;p&gt;美联储在通货膨胀下会加息，增加的是&lt;strong&gt;联邦基金利率&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;美联储货币政策的双目标：就业 &amp;amp; 通胀&lt;/p&gt;
+&lt;p&gt;基点：0.01%&lt;/p&gt;
+&lt;p&gt;折现率：未来的钱相对现在的有多不值钱。折现率高代表未来的钱没价值；折现率低代表未来的钱很有价值&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;加息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#加息&#34;&gt;#&lt;/a&gt; 加息&lt;/h1&gt;
+&lt;p&gt;加息就是一个国家或地区中央银行提高利息率&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;加息是什么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;加息时，存钱拿到手的利息增加；借钱要还的钱增加。此时大家就会把货币被存入银行，手里的钱减少，市场上的需求跟着减少，以此应对通胀。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;加息就是减少需求！&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;美联储加息时：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;美股价格下降。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;美债价格下降。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;海外股市下降。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;美元升值，其他货币贬值。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;金价，油价，大宗商品下降。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;美国房价下降。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;加息：&lt;strong&gt;紧缩，降股价，加失业率&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;美联储加息（慢加）：&lt;strong&gt;美元升值，人民币贬值&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;降息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#降息&#34;&gt;#&lt;/a&gt; 降息&lt;/h1&gt;
+&lt;p&gt;降息就是一个国家或地区中央银行降低利息率&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;降息是什么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;降息时，大家就会把货币取出放在市场上流通（消费），手里的钱增加，市场上的需求跟着增加，以此应对通缩。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;降息就是增加需求！&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;美联储降息时：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;** 美股价格上升。** 折现率降低，公司融资简单，资金流入股市。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;** 美债价格上升。** 新发行的债券利率会降低，已有的债券吸引力相对提高。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;** 海外股市上升。** 美国国内资产吸引力下降，海外更吸引人。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;** 美元贬值，其他货币升值。** 美元收益率下降，人们去买入收益率更高的其他货币。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;金价，油价，大宗商品上升。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;美国房价上升。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;降息：&lt;strong&gt;宽松，加股价，降失业率&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;美联储降息（快降）：&lt;strong&gt;美元贬值，人民币升值&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;历史&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#历史&#34;&gt;#&lt;/a&gt; 历史&lt;/h1&gt;
+&lt;p&gt;实际上，美联储降息往往是发生了危机要救市，不得不去降息才为之，其后续经济数据和我们说的理论上不同。而美联储加息也不会导致股灾 —— 只能确定在加息周期开始美股会有震荡回调。&lt;/p&gt;
+&lt;h1 id=&#34;参考视频&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参考视频&#34;&gt;#&lt;/a&gt; 参考视频&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1S3411g7Gh&#34;&gt;Lindsay：利率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1uC4y1q79G&#34;&gt;Lindsay：美联储&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1zTxjeYEqT&#34;&gt;Lindsay：美联储降息&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1284y1e7gB&#34;&gt;柴知道：美联储加息&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://liuxiaohanhanzi.top/world-me/What-is-Love/</guid>
             <title>What is Love ?</title>
@@ -22,11 +841,11 @@
             <category term="对世界的建模" scheme="https://liuxiaohanhanzi.top/categories/world-me/" />
             <category term="诗" scheme="https://liuxiaohanhanzi.top/tags/%E8%AF%97/" />
             <pubDate>Thu, 24 Oct 2024 19:02:54 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;序言&lt;/strong&gt;：这是大部分是我的随笔。如果是外部的引用，我会用标出来。&lt;/p&gt;
-&lt;blockquote&gt;
+            <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;为人性僻耽佳句，语不惊人死不休&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;烟花&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#烟花&#34;&gt;#&lt;/a&gt; 烟花&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;序言&lt;/strong&gt;：这是大部分是我的随笔。如果是外部的引用，我会标出来。&lt;/p&gt;
+&lt;h1 id=&#34;除夕&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#除夕&#34;&gt;#&lt;/a&gt; 除夕&lt;/h1&gt;
 &lt;p&gt;被烟花吵醒时&lt;br /&gt;
 暮然发现&lt;br /&gt;
 今夜无人爱我&lt;/p&gt;
@@ -49,6 +868,16 @@
 &lt;p&gt;“不食烟火的小孩子，看到中年妇女在菜市场大杀四方是会噘嘴的，而二十来岁的小姑娘，大多会偷偷跟着记笔记，看看大姨们怎么发挥。谁买到新鲜的桃子，谁就能高兴上多一个日子。&lt;/p&gt;
 &lt;p&gt;人从五谷不分的小毛孩儿成长到尝尽了柴米油盐的老掌柜，又有什么不好的呢？&lt;/p&gt;
 &lt;p&gt;诗读多了，日子过满，便不在乎那些虚头巴脑的了，让碎玉叮当响它的，也让烟火给榆木的桌子包它的浆。”&lt;/p&gt;
+&lt;h1 id=&#34;404&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#404&#34;&gt;#&lt;/a&gt; 404&lt;/h1&gt;
+&lt;p&gt;对精神病人谈真心&lt;br /&gt;
+就像对老虎谈吃素&lt;br /&gt;
+现在回忆起来&lt;br /&gt;
+所谓温情，那一颦一笑&lt;br /&gt;
+就像和人皮木偶逢场作戏&lt;br /&gt;
+更多是画皮般的惊悚&lt;/p&gt;
+&lt;h1 id=&#34;lofi&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lofi&#34;&gt;#&lt;/a&gt; LOFI&lt;/h1&gt;
+&lt;p&gt;后来我们的爱埋葬在了聊天记录里&lt;br /&gt;
+能再无音信，已是最好的结局&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -237,7 +1066,7 @@
 &lt;p&gt;博主使用了雷电模拟器＋magisk＋LSPosed，然后在环境内安装 “爱玩机工具箱”（注：工具箱初次加载需要科学上网），安装微信，登陆账号。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;v2-1ba3d1106e9e614fda2d4ae66c0225e9_720w.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;然后在工具箱的 “一个终端” 模块中，运行一下 abd 指令：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;v2-29fdb4999c93a087a804680e6d33159a_720w.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./v2-29fdb4999c93a087a804680e6d33159a_1440w.png&#34; alt=&#34;v2-29fdb4999c93a087a804680e6d33159a_1440w&#34; /&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;am start &lt;span class=&#34;token parameter variable&#34;&gt;-n&lt;/span&gt; com.tencent.mm/com.tencent.mm.ui.chatting.ChattingUI &lt;span class=&#34;token parameter variable&#34;&gt;--ei&lt;/span&gt; Chat_Mode &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--es&lt;/span&gt; Chat_User wxid_xxxxx&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;wxid_xxxx 替换为你要加的对方的 id。这里题主还 debug 了半小时……qq 图片转文字把 ChattingUI 写成 ChattingUl 了（正确的是大写字母 i，而不是小写字母 l）&lt;/p&gt;
 &lt;p&gt;然后！你就能找到对方的名片了！！！&lt;/p&gt;
 &lt;p&gt;我本来已经开香槟了&lt;/p&gt;
@@ -264,7 +1093,7 @@
             <title>网格止盈策略</title>
             <link>https://liuxiaohanhanzi.top/quant/strategy/%E7%BD%91%E6%A0%BC%E6%AD%A2%E7%9B%88%E7%AD%96%E7%95%A5/</link>
             <category term="量化" scheme="https://liuxiaohanhanzi.top/categories/quant/" />
-            <category term="策略" scheme="https://liuxiaohanhanzi.top/categories/quant/strategys/" />
+            <category term="策略" scheme="https://liuxiaohanhanzi.top/categories/quant/strategy/" />
             <category term="金融" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%91%E8%9E%8D/" />
             <category term="量化" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%8F%E5%8C%96/" />
             <pubDate>Thu, 17 Oct 2024 15:32:25 +0800</pubDate>
@@ -529,11 +1358,9 @@
 &lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 100%&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token property&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 70vh&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在浏览器按 F12 运行以下代码，可知浏览器窗口的长宽：&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;console.log&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;window.innerWidth&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;console.log&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;window.innerHeight&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;此处打印的是视口的宽度和高度，不包括浏览器的工具栏或书签栏。&lt;/p&gt;
 &lt;p&gt;打印结果，我的浏览器视口为 1707*898，长度放大 1.5 倍正好与显示器分辨率 2560 吻合。&lt;/p&gt;
-&lt;p&gt;那么我们的图片长宽比即为 &lt;code&gt;1707:898*0.7&lt;/code&gt; = &lt;code&gt;2560:943&lt;/code&gt; = &lt;code&gt;1920:707&lt;/code&gt; ，按这个比例裁剪吧&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;其实直接看代码也会显示比例：&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;直接看代码显示比例，其中 &lt;code&gt;628.59==898*0.7&lt;/code&gt; ，长度的损失是因为侧边拖动条：&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241017004542603.png&#34; alt=&#34;image-20241017004542603&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;那么我们的图片长宽比即为 &lt;code&gt;1700:629&lt;/code&gt; = &lt;code&gt;2560:947&lt;/code&gt; = &lt;code&gt;1920:710&lt;/code&gt; ，按这个比例裁剪吧&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;更近一步的话，可以再将白色波浪的遮挡考虑进来&lt;br /&gt;
 上方 header 的高度为 50vh，白色波浪的 &lt;code&gt;class=&amp;quot;waves&amp;quot;&lt;/code&gt;  的高度为 15vh。考虑动态变化，博主认为按时间平均的情况下，40% 的 waves 不会遮挡，那么 (50+15*0.4)÷70=0.8，即从顶部算起，图片高度的 80% 不会被遮挡。据此来裁剪图片到满意的位置。&lt;/p&gt;
@@ -544,12 +1371,12 @@
 &lt;li&gt;文章封面&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241017193431803.png&#34; alt=&#34;image-20241017193431803&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如图，图片长宽比为 &lt;code&gt;2560:1112&lt;/code&gt; = &lt;code&gt;1000:434&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;如图，图片长宽比为 &lt;code&gt;445.94:224&lt;/code&gt; = &lt;code&gt;2560:1112&lt;/code&gt; = &lt;code&gt;1000:434&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;精选分类&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241017011751623.png&#34; alt=&#34;image-20241017011751623&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如图，图片长宽比为 2560:1120&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241114032645674.png&#34; alt=&#34;image-20241114032645674&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如图，图片长宽比为 2560:1297&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -629,7 +1456,7 @@
 &lt;/ol&gt;
 &lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# seo 推送&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;hexo_submit_urls_to_search_engine&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;submit_condition&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; count   &lt;span class=&#34;token comment&#34;&gt;# 链接被提交的条件，可选值：count | period 现仅支持 count&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;count&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt;     &lt;span class=&#34;token comment&#34;&gt;# 提交最新的 10 个链接&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;period&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;900&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;# 提交修改时间在 900 秒内的链接&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;google&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;     &lt;span class=&#34;token comment&#34;&gt;# 是否向 Google 提交，可选值：1 | 0（0：否；1：是）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;bing&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;       &lt;span class=&#34;token comment&#34;&gt;# 是否向 bing 提交，可选值：1 | 0（0：否；1：是）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;baidu&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;      &lt;span class=&#34;token comment&#34;&gt;# 是否向 baidu 提交，可选值：1 | 0（0：否；1：是）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;txt_path&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; submit_urls.txt					&lt;span class=&#34;token comment&#34;&gt;# 文本文档名，需要推送的链接会保存在此文本文档里&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;baidu_host&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//liuxiaohanhanzi.top   &lt;span class=&#34;token comment&#34;&gt;# 在百度站长平台中注册的域名&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;baidu_token&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; your baidu token         	&lt;span class=&#34;token comment&#34;&gt;# 百度秘钥，请不要发布到公开仓库中！&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;bing_host&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//liuxiaohanhanzi.top    &lt;span class=&#34;token comment&#34;&gt;# 在 bing 站长平台中注册的域名&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;bing_token&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; your bing token           	&lt;span class=&#34;token comment&#34;&gt;# bing 秘钥，请不要发布到公开仓库中！&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;google_host&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//liuxiaohanhanzi.top  &lt;span class=&#34;token comment&#34;&gt;# 在 google 站长平台中注册的域名&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;google_key_file&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; google.json          	&lt;span class=&#34;token comment&#34;&gt;# 存放 google key 的 json 文件，放于网站根目录，请不要发布到公开仓库中！&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;google_proxy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; http&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//127.0.0.1&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;7890&lt;/span&gt;           &lt;span class=&#34;token comment&#34;&gt;# 向谷歌提交网址所使用的 http 代理，填 0 不使用，本地推送需要配置，这里使用 clash&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;                            	&lt;span class=&#34;token comment&#34;&gt;# 是否替换链接中的部分字符串，可选值：1 | 0（0：否；1：是）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;find_what&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;replace_with&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;deploy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; git&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;repo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; git@github.com&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;liuxiaohanhanzi/liuxiaohanhanzi.github.io.git&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;branch&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; main &lt;span class=&#34;token comment&#34;&gt;# 分支名称。默认填写 master 如果您使用的是 GitHub ，程序会尝试自动检测。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;message&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 提交信息可以自定义，不填的则默认为提交时间&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; cjh_google_url_submitter&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; cjh_bing_url_submitter&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#- type: cjh_baidu_url_submitter&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;本帖中博主把所有百度的内容都注释掉了。因为百度站长很麻烦，还需要公安报备、内容审核等。&lt;/p&gt;
-&lt;p&gt;博主如今搭建个人博客本就是被各平台的审核逼得。莫再落入窠臼。&lt;/p&gt;
+&lt;p&gt;本就因为各平台的审核出走搭建个人博客。莫再落入窠臼。&lt;/p&gt;
 &lt;/div&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;执行 &lt;code&gt;hexo d&lt;/code&gt;  命令&lt;/li&gt;
@@ -692,7 +1519,7 @@
 &lt;li&gt;本地文件&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;在本地博客文件夹的 source 目录中新建 TXT 文件，里面输入自己的域名（无 http 前缀），保存名称为 “CNAME”（无后缀）&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241013193247008.png&#34; alt=&#34;image-20241013193247008&#34; style=&#34;width:80%;&#34; /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241013193247008.png&#34; alt=&#34;image-20241013193247008&#34; style=&#34;width:80%;margin:15px auto&#34; /&gt;
 &lt;p&gt;完成！&lt;/p&gt;
 &lt;h1 id=&#34;github域名加速&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github域名加速&#34;&gt;#&lt;/a&gt; Github 域名加速&lt;/h1&gt;
 &lt;p&gt;首先附上&lt;a href=&#34;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site&#34;&gt;官方指路文档&lt;/a&gt;&lt;/p&gt;
@@ -707,134 +1534,6 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241013195341440.png&#34; alt=&#34;image-20241013195341440&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;github-action自动部署未做&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github-action自动部署未做&#34;&gt;#&lt;/a&gt; Github action 自动部署 (未做)&lt;/h1&gt;
 &lt;p&gt;感觉目前没有什么必要做，先码住：&lt;a href=&#34;https://blog.moehz.com/archives/github-action.html&#34;&gt;教程链接&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://liuxiaohanhanzi.top/blog-construction/ShokaX%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97/</guid>
-            <title>ShokaX功能模块</title>
-            <link>https://liuxiaohanhanzi.top/blog-construction/ShokaX%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97/</link>
-            <category term="博客搭建" scheme="https://liuxiaohanhanzi.top/categories/blog-construction/" />
-            <category term="hexo" scheme="https://liuxiaohanhanzi.top/tags/hexo/" />
-            <category term="shoka" scheme="https://liuxiaohanhanzi.top/tags/shoka/" />
-            <pubDate>Sun, 13 Oct 2024 18:10:56 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;背景音乐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背景音乐&#34;&gt;#&lt;/a&gt; 背景音乐&lt;/h1&gt;
-&lt;p&gt;参考 Yume 的官方文档：&lt;a href=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/#%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90&#34;&gt;官方教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;我在 &lt;code&gt;hexo-theme-shokax&lt;/code&gt;  文件夹下的 &lt;code&gt;_config.yml&lt;/code&gt;  中设置如下，注意网易云若使用 “我喜欢的音乐” 链接，链接最后的 &lt;code&gt;&amp;amp;userid=&lt;/code&gt;  部分需要去掉。&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;audio&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; QQ音乐&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#      - QQ 音乐连接&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 网易云音乐&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#      - 网易云链接&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;algolia搜索&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#algolia搜索&#34;&gt;#&lt;/a&gt; Algolia 搜索&lt;/h1&gt;
-&lt;p&gt;参考&lt;a href=&#34;https://docs.kaitaku.xyz/guide/config.html#algolia-%E6%90%9C%E7%B4%A2&#34;&gt; ShokaX 官方文档&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;前往&lt;a href=&#34;https://www.algolia.com/&#34;&gt; Algolia 官网&lt;/a&gt;，这里博主使用谷歌账号登录&lt;/li&gt;
-&lt;li&gt;进入 dashboard，依次点击 Search - Index - New - Index，填写 Index name（建议填写 shokaX）&lt;/li&gt;
-&lt;li&gt;点击左下角 Settings - API Keys，在博客根目录下的 &lt;code&gt;_config.yml&lt;/code&gt;  填写对应字段：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;algolia&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;appId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# Application ID&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;apiKey&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# Search API Key&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;adminApiKey&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# Admin API Key&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;chunkSize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;indexName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;shokaX&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;fields&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; title &lt;span class=&#34;token comment&#34;&gt;#必须配置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; path &lt;span class=&#34;token comment&#34;&gt;#必须配置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; categories &lt;span class=&#34;token comment&#34;&gt;#推荐配置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; content&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;strip&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;truncate&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; gallery&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; photos&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; tags&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;404页面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#404页面&#34;&gt;#&lt;/a&gt; 404 页面&lt;/h1&gt;
-&lt;p&gt;ShokaX 并没有自动配置 404 页面，这里博主参考了原 Shoka 的代码&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;首先在 &lt;code&gt;hexo-theme-shokax\layout\page.pug&lt;/code&gt;  中，加入代码&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight pug&#34;&gt;&lt;figcaption data-lang=&#34;pug&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;block content&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token flow-control&#34;&gt;&lt;span class=&#34;token branch keyword&#34;&gt;if&lt;/span&gt; page&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;type &lt;span class=&#34;token operator&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;categories&#39;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;div&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token string&#34;&gt;&#34;collapse wrap&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token tag&#34;&gt;h2&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token string&#34;&gt;&#34;item title&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token tag&#34;&gt;a&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token function&#34;&gt;url_for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;site&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;path&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                    &lt;span class=&#34;token punctuation&#34;&gt;!=&lt;/span&gt;&lt;span class=&#34;token code&#34;&gt; &lt;span class=&#34;token function&#34;&gt;__&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;menu.home&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token tag&#34;&gt;small&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token punctuation&#34;&gt;!=&lt;/span&gt;&lt;span class=&#34;token code&#34;&gt; &lt;span class=&#34;token function&#34;&gt;_p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;counter.categories&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; site&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;categories&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;!=&lt;/span&gt;&lt;span class=&#34;token code&#34;&gt; &lt;span class=&#34;token function&#34;&gt;_list_categories&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token flow-control&#34;&gt;&lt;span class=&#34;token branch keyword&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; page&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;type &lt;span class=&#34;token operator&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;tags&#39;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;div&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token string&#34;&gt;&#34;collapse wrap&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token tag&#34;&gt;h2&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token string&#34;&gt;&#34;item title&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token tag&#34;&gt;a&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token function&#34;&gt;url_for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;site&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;path&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                    &lt;span class=&#34;token punctuation&#34;&gt;!=&lt;/span&gt;&lt;span class=&#34;token code&#34;&gt; &lt;span class=&#34;token function&#34;&gt;__&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;menu.home&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token tag&#34;&gt;small&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token punctuation&#34;&gt;!=&lt;/span&gt;&lt;span class=&#34;token code&#34;&gt; &lt;span class=&#34;token function&#34;&gt;_p&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;counter.tag_cloud&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; site&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;tags&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token tag&#34;&gt;div&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token string&#34;&gt;&#34;tag cloud&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token punctuation&#34;&gt;!=&lt;/span&gt;&lt;span class=&#34;token code&#34;&gt; &lt;span class=&#34;token function&#34;&gt;tagcloud&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token literal-property property&#34;&gt;min_font&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; theme&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;tagcloud&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;min&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token literal-property property&#34;&gt;max_font&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; theme&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;tagcloud&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;max&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token literal-property property&#34;&gt;amount&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; theme&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;tagcloud&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;amount&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token literal-property property&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token literal-property property&#34;&gt;start_color&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; theme&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;tagcloud&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;start&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token literal-property property&#34;&gt;end_color&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; theme&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;tagcloud&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;end&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 加入 404 页面代码&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token flow-control&#34;&gt;&lt;span class=&#34;token branch keyword&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; page&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;type &lt;span class=&#34;token operator&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;404&#39;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;div&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token string&#34;&gt;&#34;page wrap&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token tag&#34;&gt;div&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token string&#34;&gt;&#34;notfound&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token punctuation&#34;&gt;!=&lt;/span&gt;&lt;span class=&#34;token code&#34;&gt; &lt;span class=&#34;token function&#34;&gt;__&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;title.not_found&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 页面文字&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token tag&#34;&gt;img&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;decoding&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token string&#34;&gt;&#34;async&#34;&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;lostimg&#34;&lt;/span&gt; itemprop&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;image&#34;&lt;/span&gt; &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token attr-name&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token function&#34;&gt;url_for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;theme&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;statics &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; theme&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;assets &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; theme&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;pastlove&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;)&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token flow-control&#34;&gt;&lt;span class=&#34;token branch keyword&#34;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;div&lt;span class=&#34;token attributes&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token string&#34;&gt;&#34;page wrap&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;!=&lt;/span&gt;&lt;span class=&#34;token code&#34;&gt; &lt;span class=&#34;token function&#34;&gt;partial&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;_partials/post/post.pug&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token literal-property property&#34;&gt;post&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; page&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token mixin&#34;&gt;&lt;span class=&#34;token name function&#34;&gt;+CommentRender&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
-&lt;li&gt;然后在 &lt;code&gt;hexo-theme-shokax/_config.yml&lt;/code&gt;  中加入 theme 抛出的 404 图片：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;pastlove&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 404.png&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
-&lt;li&gt;在 &lt;code&gt;hexo-theme-shokax/source/css/_common/components/pages/pages.styl&lt;/code&gt;  下进行样式编写：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight stylus&#34;&gt;&lt;figcaption data-lang=&#34;stylus&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;.page &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token selector&#34;&gt;.notfound &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;text-align&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; center&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;margin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token unit&#34;&gt;px&lt;/span&gt; auto&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token unit&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;font-style&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; italic&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;font-weight&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; bold&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token selector&#34;&gt;.lostimg&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;70&lt;/span&gt;&lt;span class=&#34;token unit&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; block&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;margin-top&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;90&lt;/span&gt;&lt;span class=&#34;token unit&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
-&lt;li&gt;新建 404 界面&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;地址重定向的要求即在 public 目录下包含 &lt;code&gt;404.html&lt;/code&gt; ，这里我们可以在根目录的 source 文件夹下新建 md 文件：&lt;/p&gt;
-&lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption data-lang=&#34;markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token front-matter-block&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token front-matter yaml language-yaml&#34;&gt;&lt;span class=&#34;token key atrule&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;404！&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;我们之间已经无话可说了，所有词语的组合已经用尽，原子不再把我们组合在一起&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;404&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;保存，运行即可。&lt;/p&gt;
-&lt;h1 id=&#34;移除顶部模糊&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#移除顶部模糊&#34;&gt;#&lt;/a&gt; 移除顶部模糊&lt;/h1&gt;
-&lt;p&gt;同时在頂部以外的地方保留模糊效果&lt;/p&gt;
-&lt;p&gt;附上&lt;a href=&#34;https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;在 &lt;code&gt;shokax\scripts&lt;/code&gt;  下新建 &lt;code&gt;removeTopBlur.js&lt;/code&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;extend&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filter&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;theme_inject&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;injects&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    injects&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;style&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;views/removeTopBlur.styl&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在根目录下新建 &lt;code&gt;views&lt;/code&gt;  文件夹，并在其中新建 &lt;code&gt;removeTopBlur.styl&lt;/code&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight stylus&#34;&gt;&lt;figcaption data-lang=&#34;stylus&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;#nav &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;backdrop-filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token func&#34;&gt;&lt;span class=&#34;token function&#34;&gt;saturate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token unit&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token func&#34;&gt;&lt;span class=&#34;token function&#34;&gt;blur&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token unit&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token selector&#34;&gt;&amp;amp;.show &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property-declaration&#34;&gt;&lt;span class=&#34;token property&#34;&gt;backdrop-filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token func&#34;&gt;&lt;span class=&#34;token function&#34;&gt;saturate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;180&lt;/span&gt;&lt;span class=&#34;token unit&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token func&#34;&gt;&lt;span class=&#34;token function&#34;&gt;blur&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;token unit&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;   &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;完成！&lt;/p&gt;
-&lt;h1 id=&#34;cdn加速&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cdn加速&#34;&gt;#&lt;/a&gt; CDN 加速&lt;/h1&gt;
-&lt;p&gt;附上&lt;a href=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/config/&#34;&gt;官方教程&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;statics&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; //cdn.jsdelivr.net/gh/&amp;lt;github用户名&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;/&amp;lt;仓库&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;@latest/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;若 jsdelivr 被污染，则修改为：&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;statics&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; //fastly.jsdelivr.net/gh/liuxiaohanhanzi/liuxiaohanhanzi.github.io@latest/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;评论区&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#评论区&#34;&gt;#&lt;/a&gt; 评论区&lt;/h1&gt;
-&lt;p&gt;博主选择了 twikoo+vercel 部署&lt;/p&gt;
-&lt;p&gt;下面是&lt;a href=&#34;https://docs-hexo.shokax.top/features/comments/#twikoo&#34;&gt;官方教程&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://liuxiaohanhanzi.top/blog-construction/ShokaX%E5%9B%BE%E7%89%87%E7%AE%A1%E7%90%86/</guid>
-            <title>ShokaX图片管理</title>
-            <link>https://liuxiaohanhanzi.top/blog-construction/ShokaX%E5%9B%BE%E7%89%87%E7%AE%A1%E7%90%86/</link>
-            <category term="博客搭建" scheme="https://liuxiaohanhanzi.top/categories/blog-construction/" />
-            <category term="hexo" scheme="https://liuxiaohanhanzi.top/tags/hexo/" />
-            <category term="shoka" scheme="https://liuxiaohanhanzi.top/tags/shoka/" />
-            <pubDate>Sat, 12 Oct 2024 16:58:34 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;顶部轮播图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#顶部轮播图&#34;&gt;#&lt;/a&gt; 顶部轮播图&lt;/h1&gt;
-&lt;h2 id=&#34;giteepicgo创建图床&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#giteepicgo创建图床&#34;&gt;#&lt;/a&gt; gitee+PicGo 创建图床&lt;/h2&gt;
-&lt;p&gt;参考教程：&lt;a href=&#34;https://blog.csdn.net/duleilewuhen/article/details/139478827&#34;&gt;图床&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;shokax图片配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#shokax图片配置&#34;&gt;#&lt;/a&gt; ShokaX 图片配置&lt;/h2&gt;
-&lt;p&gt;参考教程：&lt;a href=&#34;https://blog.csdn.net/F041025/article/details/136552072?ops_request_misc=%257B%2522request%255Fid%2522%253A%25228347948E-316D-4F0C-8E4B-6C33285CBDF6%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;amp;request_id=8347948E-316D-4F0C-8E4B-6C33285CBDF6&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-136552072-null-null.142%5Ev100%5Epc_search_result_base9&amp;amp;utm_term=shoka&amp;amp;spm=1018.2226.3001.4187&#34;&gt;Shoka 图床配置&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;本地图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#本地图片&#34;&gt;#&lt;/a&gt; 本地图片&lt;/h1&gt;
-&lt;h2 id=&#34;本地文件位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#本地文件位置&#34;&gt;#&lt;/a&gt; 本地文件位置&lt;/h2&gt;
-&lt;p&gt;首先，查阅 hexo 官方文档，易知 &lt;code&gt;post_asset_folder&lt;/code&gt;  设置为 &lt;code&gt;true&lt;/code&gt;  时，可实现新建 markdown 文件的同时新建文件夹：&lt;/p&gt;
-&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;_posts&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;├── article1/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;├── article2/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;├── article1.md&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;├── article2.md&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;但是博主并不喜欢，东西太多太乱了，于是找到了大佬的插件：&lt;a href=&#34;https://hunsh.net/20230806/%E5%AE%9E%E7%8E%B0-hexo-%E6%96%87%E7%AB%A0%E5%92%8C%E8%B5%84%E6%BA%90%E5%9C%A8%E5%90%8C%E4%B8%80%E7%9B%AE%E5%BD%95%E4%B8%8B/&#34;&gt;hexo 目录插件&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;自动生成相对位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自动生成相对位置&#34;&gt;#&lt;/a&gt; &lt;s class=&#34;danger&#34;&gt;自动生成相对位置&lt;/s&gt;&lt;/h2&gt;
-&lt;div class=&#34;note danger&#34;&gt;
-&lt;p&gt;本节已废弃，安装 &lt;code&gt;hexo-asset-dir&lt;/code&gt;  足以解决图片插入问题。&lt;br /&gt;
-本节操作会造成 about 页面图片渲染不出来！&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;在本地，博主习惯使用 Typora 编辑 md 文件。这样在插入图片时，使用的是相对 md 文件的路径。&lt;/p&gt;
-&lt;p&gt;然而 &lt;code&gt;hexo g&lt;/code&gt;  生成 HTML 后，文件位置会打乱，于是网页找不到图片无法渲染。&lt;/p&gt;
-&lt;p&gt;这里发现很多博客提及的解决方法 &lt;code&gt;hexo-asset-image&lt;/code&gt;  插件已经失效，当前解决方法是 &lt;code&gt;hexo-asset-img&lt;/code&gt;  插件：&lt;a href=&#34;https://github.com/yiyungent/hexo-asset-img&#34;&gt;hexo 图片位置插件&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;由于在&lt;a href=&#34;#%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E4%BD%8D%E7%BD%AE&#34;&gt; 2.1&lt;/a&gt; 节中我们对本地文件位置做了修改，这里也要对下载的插件文件进行调整：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; hexoLog &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;hexo-log&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; log &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;typeof&lt;/span&gt; hexoLog&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;default&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;===&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;function&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;?&lt;/span&gt; hexoLog&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;default&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token literal-property property&#34;&gt;debug&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token literal-property property&#34;&gt;silent&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;hexoLog&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token literal-property property&#34;&gt;debug&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token literal-property property&#34;&gt;silent&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; htmlparser2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;require&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;htmlparser2&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/**&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; * md 文件返回 true&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; * @param &amp;#123;*&amp;#125; data &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; */&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ignore&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// TODO: 好奇怪，试了一下，md 返回 true, 但却需要忽略 取反！&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; source &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;source&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; ext &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; source&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;substring&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;source&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;lastIndexOf&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;.&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;toLowerCase&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;md&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;indexOf&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ext&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// generate random string&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    res &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    letters &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;a&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;b&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;c&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;d&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;e&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;f&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;g&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;h&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;i&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;j&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;k&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;l&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;m&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;n&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;o&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;p&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;q&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;r&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;s&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;t&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;u&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;v&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;w&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;x&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;y&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;z&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;let&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; length&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;let&lt;/span&gt; index &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; Math&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;round&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Math&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        res &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; letters&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;index&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; res&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;transform&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;img&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; fileName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    img &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; htmlparser2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;parseDocument&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;text/html&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;children&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    src &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;attribs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;src&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    title &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;attribs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;title &lt;span class=&#34;token operator&#34;&gt;?&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;attribs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;title &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    alt &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;attribs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;alt &lt;span class=&#34;token operator&#34;&gt;?&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;attribs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;alt &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    style &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;attribs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;style &lt;span class=&#34;token operator&#34;&gt;?&lt;/span&gt; img&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;attribs&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;style &lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 这里对原插件的正则匹配进行了修改&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    imgFile &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; src&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;match&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;RegExp&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;.*?(.+?)$&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    className &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;random&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    imgTag &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;51&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;52&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 原插件的路径&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;53&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// var regExp = RegExp(&#34;!\\[(.*?)\\]\\(&amp;lt;?&#34; + fileName + &#39;/(.+?)&gt;?\\)&#39;, &#34;g&#34;);&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;54&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// var imgExp = RegExp(&#34;(&amp;lt;img.*?src=\&#34;&#34; + fileName + &#34;/.+?\&#34;.*?&gt;)&#34;, &#34;g&#34;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;55&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 新路径&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;56&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; regExp &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;RegExp&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;!\\[(.*?)\\]\\((.+?)\\)&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;g&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;57&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;var&lt;/span&gt; imgExp &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;RegExp&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;(&amp;lt;img.*?src=\&#34;.+?\&#34;.*?&gt;)&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;g&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;58&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// hexo g&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;59&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;content &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;content&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;regExp&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;g&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;60&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;content &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; data&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;content&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;imgExp&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;match&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; img&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;transform&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;img&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; fileName&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;g&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;61&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// log.info(`hexo-asset-img: filename: $&amp;#123;fileName&amp;#125;, title: $&amp;#123;data.title.trim()&amp;#125;`);&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;62&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// log.info(data.content)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;63&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; data&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;64&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;65&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;66&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;extend&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filter&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;before_post_render&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;67&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;ignore&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;68&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token function&#34;&gt;action&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;69&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;70&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;注意！如果渲染出现 style 问题，检查一下 &lt;code&gt; _config.yml&lt;/code&gt;  中的 html 设置：&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;markdown&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;render&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 渲染器设置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;结果&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#结果&#34;&gt;#&lt;/a&gt; 结果&lt;/h1&gt;
-&lt;p&gt;经测试，成功&lt;/p&gt;
-&lt;p&gt;这样就能顺畅的处理图片啦&lt;/p&gt;
-&lt;p&gt;&lt;s&gt;踩坑了，昭昭前事，惕惕后人，de 了 2 小时 bug（泪）&lt;/s&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://liuxiaohanhanzi.top/social-media-account/%E9%85%8D%E7%BD%AEgithub%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid>
-            <title>配置github个人主页</title>
-            <link>https://liuxiaohanhanzi.top/social-media-account/%E9%85%8D%E7%BD%AEgithub%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</link>
-            <category term="社交媒体账号" scheme="https://liuxiaohanhanzi.top/categories/social-media-account/" />
-            <category term="github" scheme="https://liuxiaohanhanzi.top/tags/github/" />
-            <pubDate>Thu, 10 Oct 2024 11:45:14 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;起因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#起因&#34;&gt;#&lt;/a&gt; 起因&lt;/h1&gt;
-&lt;p&gt;博主的 github 一直处于注册了偶然用用的状态，没系统性的收拾过。这次该整理一下了。&lt;/p&gt;
-&lt;h1 id=&#34;方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法&#34;&gt;#&lt;/a&gt; 方法&lt;/h1&gt;
-&lt;h2 id=&#34;1-新建仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-新建仓库&#34;&gt;#&lt;/a&gt; 1. 新建仓库&lt;/h2&gt;
-&lt;p&gt;创建一个名称和 github 账号名一样的仓库，默认生成 &lt;code&gt;README.md&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;2-编辑内容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-编辑内容&#34;&gt;#&lt;/a&gt; 2. 编辑内容&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;前置配置&lt;/p&gt;
-&lt;p&gt;博主习惯用本地的 Typora 编辑，于是先配置了 git 的 ssh：&lt;a href=&#34;https://blog.csdn.net/m0_59066523/article/details/139250032&#34;&gt;git 教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;然后绑定到 github：&lt;a href=&#34;https://blog.csdn.net/shanguicsdn111/article/details/141819373&#34;&gt;github 教程&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;拉到本地&lt;/p&gt;
-&lt;p&gt;接着 clone 到本地&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; clone https://github.com/liuxiaohanhanzi/liuxiaohanhanzi.git&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;修改&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241015235452218.png&#34; style=&#34;width:80%;margin:15px auto&#34; /&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;查看本地与服务器差异&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; status&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;添加修改&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;token builtin class-name&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;所有修改即被加入缓存区&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;提交修改&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; commit &lt;span class=&#34;token parameter variable&#34;&gt;-m&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;完善了自我介绍&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;code&gt;-m&lt;/code&gt;  后为本次提交的说明内容，这一步会保存记录到本地仓库&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;推送到远程仓库&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push origin main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;main 为分支名称，通常是 &lt;code&gt;main&lt;/code&gt;  或 &lt;code&gt;master&lt;/code&gt; ，可以通过 &lt;code&gt;git branch&lt;/code&gt;  查看当前分支&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;结果&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#结果&#34;&gt;#&lt;/a&gt; 结果&lt;/h1&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241015235552196.png&#34; alt=&#34;image-20241015235552196&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
