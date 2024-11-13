@@ -10,15 +10,46 @@
         </author>
         <description>What is &#34;LOVE&#34; ?</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 11 Nov 2024 12:26:22 +0800</pubDate>
-        <lastBuildDate>Mon, 11 Nov 2024 12:26:22 +0800</lastBuildDate>
+        <pubDate>Thu, 14 Nov 2024 05:56:19 +0800</pubDate>
+        <lastBuildDate>Thu, 14 Nov 2024 05:56:19 +0800</lastBuildDate>
         <category term="量化" />
         <category term="计算机" />
         <category term="Python" />
         <item>
+            <guid isPermalink="true">https://liuxiaohanhanzi.top/blog-construction/shokax%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6/</guid>
+            <title>shokax更改文件</title>
+            <link>https://liuxiaohanhanzi.top/blog-construction/shokax%E6%9B%B4%E6%94%B9%E6%96%87%E4%BB%B6/</link>
+            <category term="博客搭建" scheme="https://liuxiaohanhanzi.top/categories/blog-construction/" />
+            <category term="shoka" scheme="https://liuxiaohanhanzi.top/tags/shoka/" />
+            <pubDate>Thu, 14 Nov 2024 05:56:19 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;enginejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#enginejs&#34;&gt;#&lt;/a&gt; engine.js&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/scripts/helpers/engine.js&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;渲染头图&lt;/p&gt;
+&lt;h1 id=&#34;languages文件夹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#languages文件夹&#34;&gt;#&lt;/a&gt; languages 文件夹&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/languages&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;更改提示词&lt;/p&gt;
+&lt;h1 id=&#34;assets文件夹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#assets文件夹&#34;&gt;#&lt;/a&gt; assets 文件夹&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/source/assets&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;用与存放网页 icon、个人头像等图片资源&lt;/p&gt;
+&lt;h1 id=&#34;pagepug&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pagepug&#34;&gt;#&lt;/a&gt; page.pug&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/layout/page.pug&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;用于增加 404 页面&lt;/p&gt;
+&lt;h1 id=&#34;pagesstyl&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pagesstyl&#34;&gt;#&lt;/a&gt; pages.styl&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/source/css/_common/components/pages/pages.styl&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;用于增加 404 页面&lt;/p&gt;
+&lt;h1 id=&#34;basestyl&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#basestyl&#34;&gt;#&lt;/a&gt; base.styl&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/source/css/_common/scaffolding/base.styl&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;多行 katex 公式行间距调整&lt;/p&gt;
+&lt;h1 id=&#34;rewardstyl&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#rewardstyl&#34;&gt;#&lt;/a&gt; reward.styl&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/source/css/_common/components/post/reward.styl&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;对赞赏码样式进行更改，宽度设为 60%&lt;/p&gt;
+&lt;h1 id=&#34;removetopblurjs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#removetopblurjs&#34;&gt;#&lt;/a&gt; removeTopBlur.js&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/scripts/removeTopBlur.js&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;位于浏览器可视窗口顶部时，导航栏的不模糊&lt;/p&gt;
+&lt;h1 id=&#34;baidu_verify_codeva-xxxhtml&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#baidu_verify_codeva-xxxhtml&#34;&gt;#&lt;/a&gt; baidu_verify_codeva-xxx.html&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/source/baidu_verify_codeva-MeYGtZ4QVA.html&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;用于百度站长文件验证&lt;/p&gt;
+&lt;h1 id=&#34;homestyl&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#homestyl&#34;&gt;#&lt;/a&gt; home.styl&lt;/h1&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;lt;root&gt;/themes/shokax/source/css/_common/components/pages/home.styl&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;统一封面样式&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/Zotero%E6%94%BB%E7%95%A5/</guid>
             <title>Zotero攻略</title>
             <link>https://liuxiaohanhanzi.top/pc-migration/Zotero%E6%94%BB%E7%95%A5/</link>
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/pc-migration/" />
+            <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
             <pubDate>Mon, 11 Nov 2024 12:26:22 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;趁着重装系统，我把开始使用 Zotero7&lt;/p&gt;
 &lt;blockquote&gt;
@@ -78,7 +109,7 @@
             <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/Python-Pytorch/</guid>
             <title>Python&amp;Pytorch</title>
             <link>https://liuxiaohanhanzi.top/pc-migration/Python-Pytorch/</link>
-            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/pc-migration/" />
             <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
             <category term="python" scheme="https://liuxiaohanhanzi.top/tags/python/" />
             <pubDate>Thu, 07 Nov 2024 15:05:50 +0800</pubDate>
@@ -131,9 +162,7 @@
 &lt;p&gt;&lt;a href=&#34;https://mirror.tuna.tsinghua.edu.cn/help/anaconda/&#34;&gt;清华源官方&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;跟着操作后博主执行以下指令查看 python 包的源链接：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;conda search numpy --info
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;结果既有清华源，也有 repo.anaconda.com 的：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;conda search numpy &lt;span class=&#34;token parameter variable&#34;&gt;--info&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;结果既有清华源，也有 repo.anaconda.com 的：&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;https://repo.anaconda.com/pkgs/main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;https://repo.anaconda.com/pkgs/r&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;https://repo.anaconda.com/pkgs/msys2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;我怎么知道具体安装时，conda 选择了哪个源啊？&lt;/p&gt;
 &lt;p&gt;—— 最后经查阅资料，博主打开 &lt;code&gt;Anaconda Navigator&lt;/code&gt; ，删除了三个 repo.anaconda.com 源，问题解决。&lt;/p&gt;
 &lt;p&gt;在 Navigator 删除三个源后，我们进行以下测试：&lt;/p&gt;
@@ -145,10 +174,7 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241108183851542.png&#34; alt=&#34;image-20241108183851542&#34; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;注意：此时我们运行：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;conda config --get channels
-conda config --show channels
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;结果是这样&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;conda config &lt;span class=&#34;token parameter variable&#34;&gt;--get&lt;/span&gt; channels&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;conda config &lt;span class=&#34;token parameter variable&#34;&gt;--show&lt;/span&gt; channels&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;结果是这样&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241108184256400.png&#34; alt=&#34;image-20241108184256400&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;尽管与很多现有简中教程不符，但是确实 url 地址&lt;strong&gt;是且仅是&lt;/strong&gt;清华源&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -164,7 +190,7 @@ conda config --show channels
             <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/NVM-node/</guid>
             <title>NVM&amp;node</title>
             <link>https://liuxiaohanhanzi.top/pc-migration/NVM-node/</link>
-            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/pc-migration/" />
             <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
             <category term="node" scheme="https://liuxiaohanhanzi.top/tags/node/" />
             <pubDate>Wed, 06 Nov 2024 19:46:10 +0800</pubDate>
@@ -199,9 +225,7 @@ conda config --show channels
 &lt;p&gt;pnpm 全称 performant npm，意思为高性能的 npm。pnpm 解决了 npm/yarn 内部潜在的 bug，极大的优化了性能，通过硬链接减小了内存。&lt;/p&gt;
 &lt;h2 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h2&gt;
 &lt;p&gt;运行以下指令&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;npm install -g pnpm
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;安装好的 pnpm 在上一节配置的 &lt;code&gt;nvm\node_global&lt;/code&gt;  文件夹下。我们下面对 pnpm 配置文件夹路径与系统变量：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-g&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安装好的 pnpm 在上一节配置的 &lt;code&gt;nvm\node_global&lt;/code&gt;  文件夹下。我们下面对 pnpm 配置文件夹路径与系统变量：&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 全局bin地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set global-bin-dir &#34;E:\Files\pnpm&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 包元数据缓存地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set cache-dir &#34;E:\Files\pnpm\pnpm-cache&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# pnpm-state.json文件（仅由更新检查器使用）地址&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set state-dir &#34;E:\Files\pnpm\pnpm-state&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 全局依赖目录&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set global-dir &#34;E:\Files\pnpm\global&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;# 所有包被保存在磁盘上的位置。&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;#（操作后，总目录pnpm下不会再生成store文件夹）&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;pnpm config set store-dir &#34;E:\Files\pnpm\pnpm-store&#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这样的好处：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;当前系统盘根目录不会产生 pnpm-store 文件&lt;/li&gt;
@@ -268,17 +292,15 @@ conda config --show channels
 &lt;p&gt;这里有个问题，官方文档说 &lt;code&gt;pnpm store prune&lt;/code&gt;  指令可以删除 pnpm-store 下不被引用的文件。博主发现就算执行了，删除文件数也是 0；若想真正删除，要求对应文件没有硬链接绑定，即需要手动删除.pnpm 下的文件。注意哦，就算收纳到回收站，硬链接依然在，必须清空回收站才算解除硬链接。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;想删除真正文件释放内存，目前博主认为需要手动删除后，运行代码：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;pnpm store prune
-&lt;/code&gt;&lt;/pre&gt;
- ]]></description>
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt; store prune&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/Java%E5%A5%97%E8%A3%85/</guid>
             <title>Java套装</title>
             <link>https://liuxiaohanhanzi.top/pc-migration/Java%E5%A5%97%E8%A3%85/</link>
-            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
-            <category term="Java" scheme="https://liuxiaohanhanzi.top/tags/Java/" />
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/pc-migration/" />
             <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
+            <category term="Java" scheme="https://liuxiaohanhanzi.top/tags/Java/" />
             <pubDate>Wed, 06 Nov 2024 12:59:35 +0800</pubDate>
             <description><![CDATA[ &lt;blockquote&gt;
 &lt;p&gt;博主 IDE 选用 IntelliJ IDEA 2024.1&lt;/p&gt;
@@ -298,9 +320,7 @@ conda config --show channels
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;%JAVA_HOME%\bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;%JAVA_HOME%\jre\bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;记得删除 path 中 jdk 安装程序自动配置的路径，快捷方式文件也可删，不影响运行：&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;C:\Program Files (x86)\Common Files\Oracle\Java\java8path&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;C:\Program Files\Common Files\Oracle\Java\javapath&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;cmd 运行指令验证：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;java -version
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106132916813.png&#34; alt=&#34;image-20241106132916813&#34; /&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;java&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-version&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106132916813.png&#34; alt=&#34;image-20241106132916813&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;tomcat&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tomcat&#34;&gt;#&lt;/a&gt; Tomcat&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_44697728/article/details/114476174&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
@@ -315,9 +335,7 @@ conda config --show channels
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;E:\study_program\JetBrains\IntelliJ IDEA 2024.1\plugins\maven\lib\maven3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;windows 搜索高级系统设置，新建系统环境变量 MAVEN_HOME&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;E:\study_program\JetBrains\IntelliJ IDEA 2024.1\plugins\maven\lib\maven3&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;系统 Path 中新建&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;%MAVEN_HOME%\bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;命令窗口运行代码验证：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;mvn -v
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106133554465.png&#34; alt=&#34;image-20241106133554465&#34; /&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mvn &lt;span class=&#34;token parameter variable&#34;&gt;-v&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106133554465.png&#34; alt=&#34;image-20241106133554465&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;settingsxml配置文件修改&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#settingsxml配置文件修改&#34;&gt;#&lt;/a&gt; settings.xml 配置文件修改&lt;/h2&gt;
 &lt;p&gt;打开目录：&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;E:\study_program\JetBrains\IntelliJ IDEA 2024.1\plugins\maven\lib\maven3\conf&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;修改 settings.xml&lt;/p&gt;
@@ -346,7 +364,7 @@ conda config --show channels
             <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/%E6%9C%AC%E5%9C%B0%E7%94%A8%E6%88%B7%E5%8F%98%E6%9B%B4%E9%97%AE%E9%A2%98/</guid>
             <title>本地用户变更问题</title>
             <link>https://liuxiaohanhanzi.top/pc-migration/%E6%9C%AC%E5%9C%B0%E7%94%A8%E6%88%B7%E5%8F%98%E6%9B%B4%E9%97%AE%E9%A2%98/</link>
-            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/pc-migration/" />
             <category term="Git" scheme="https://liuxiaohanhanzi.top/tags/Git/" />
             <category term="hexo" scheme="https://liuxiaohanhanzi.top/tags/hexo/" />
             <pubDate>Wed, 06 Nov 2024 11:56:23 +0800</pubDate>
@@ -357,10 +375,7 @@ conda config --show channels
 &lt;p&gt;部分操作可参考&lt;a href=&#34;https://blog.csdn.net/m0_59066523/article/details/139250032&#34;&gt;教程链接&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;这里我们在 &lt;code&gt;git bash&lt;/code&gt;  输入以下指令验证：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;ssh -T git@github.com
-ssh -T git@gitee.com
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;这里出现了问题：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ssh&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-T&lt;/span&gt; git@github.com&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ssh&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-T&lt;/span&gt; git@gitee.com&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这里出现了问题：&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;The authenticity of host ‘github.com (20.205.243.166)‘ can‘t be established&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;参考&lt;a href=&#34;https://blog.csdn.net/renke_edogawa/article/details/138833533&#34;&gt; csdn 教程&lt;/a&gt;，我们了解到是 IP 信任问题&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;无脑输入 yes 其实就可以，但是博主还是选择了最保险的方式&lt;/p&gt;
@@ -384,7 +399,7 @@ ssh -T git@gitee.com
             <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/SQL%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
             <title>SQL数据库</title>
             <link>https://liuxiaohanhanzi.top/pc-migration/SQL%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
-            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/pc-migration/" />
             <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
             <category term="SQL" scheme="https://liuxiaohanhanzi.top/tags/SQL/" />
             <pubDate>Wed, 06 Nov 2024 11:55:31 +0800</pubDate>
@@ -394,9 +409,7 @@ ssh -T git@gitee.com
 &lt;p&gt;这里查看&lt;a href=&#34;https://blog.csdn.net/molangmolang/article/details/139224625&#34;&gt;教程链接&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;配置好一个环境变量后，这里我们可以在命令行进行验证：&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;mysql -u root -p
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;输入密码后，顺利登录&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mysql &lt;span class=&#34;token parameter variable&#34;&gt;-u&lt;/span&gt; root &lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;输入密码后，顺利登录&lt;/p&gt;
 &lt;p&gt;查看所有库：&lt;/p&gt;
 &lt;figure class=&#34;highlight sql&#34;&gt;&lt;figcaption data-lang=&#34;SQL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;show&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;databases&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;\g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241106120824469.png&#34; alt=&#34;image-20241106120824469&#34; style=&#34;zoom:67%;margin:15px auto&#34; /&gt;
 &lt;p&gt;而后博主安装了 Navicat Premium 17，新建连接，输入密码：&lt;/p&gt;
@@ -407,9 +420,9 @@ ssh -T git@gitee.com
             <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/Cpp%E6%8F%92%E4%BB%B6/</guid>
             <title>Cpp插件</title>
             <link>https://liuxiaohanhanzi.top/pc-migration/Cpp%E6%8F%92%E4%BB%B6/</link>
-            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
-            <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/pc-migration/" />
             <category term="c++" scheme="https://liuxiaohanhanzi.top/tags/c/" />
+            <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
             <pubDate>Wed, 06 Nov 2024 11:52:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;easyx&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#easyx&#34;&gt;#&lt;/a&gt; EasyX&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -448,7 +461,7 @@ int main()
             <guid isPermalink="true">https://liuxiaohanhanzi.top/pc-migration/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
             <title>电脑软件清单</title>
             <link>https://liuxiaohanhanzi.top/pc-migration/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
-            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/%E7%94%B5%E8%84%91%E8%BF%81%E7%A7%BB%E6%8C%87%E5%8D%97/" />
+            <category term="电脑迁移指南" scheme="https://liuxiaohanhanzi.top/categories/pc-migration/" />
             <category term="软件教程" scheme="https://liuxiaohanhanzi.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/" />
             <pubDate>Wed, 06 Nov 2024 11:48:49 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;计算机应用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机应用&#34;&gt;#&lt;/a&gt; 计算机应用&lt;/h1&gt;
@@ -520,6 +533,7 @@ int main()
 &lt;li&gt;Steam++(D)&lt;/li&gt;
 &lt;li&gt;AutoHotkey(D)&lt;/li&gt;
 &lt;li&gt;搜狗输入法 (D)&lt;/li&gt;
+&lt;li&gt;LinkShellExtension(D)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;这里深深感谢 &lt;code&gt;十月姑娘&lt;/code&gt; 的所有皮肤作品，博主用了很多年了。近日重装系统时才发现…… 十月从 22 年开始再无更新，断了音信。如今搜狗为了兜售自己的付费皮肤，甚至把十月的好多作品下架隐藏。&lt;/p&gt;
@@ -628,6 +642,7 @@ int main()
 &lt;ul&gt;
 &lt;li&gt;Maya(E)&lt;/li&gt;
 &lt;li&gt;Stable Diffusion(D)&lt;/li&gt;
+&lt;li&gt;FontExpert2023(D)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;流媒体&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#流媒体&#34;&gt;#&lt;/a&gt; 流媒体&lt;/h2&gt;
 &lt;ul&gt;
@@ -722,10 +737,16 @@ int main()
 &lt;ul&gt;
 &lt;li&gt;LaTeX（包含 TeXLive、TeXstudio）(E)&lt;/li&gt;
 &lt;li&gt;MATLAB(E)&lt;/li&gt;
+&lt;li&gt;Zotero7(E)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;编程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#编程&#34;&gt;#&lt;/a&gt; 编程&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Navicat(E)&lt;/li&gt;
+&lt;li&gt;Pycharm(E)&lt;/li&gt;
+&lt;li&gt;IDEA(E)&lt;/li&gt;
+&lt;li&gt;CLion(E)&lt;/li&gt;
+&lt;li&gt;anaconda(E)&lt;/li&gt;
+&lt;li&gt;Picgo(E)&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
         </item>
@@ -1370,13 +1391,13 @@ int main()
 &lt;ul&gt;
 &lt;li&gt;文章封面&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241017193431803.png&#34; alt=&#34;image-20241017193431803&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如图，图片长宽比为 &lt;code&gt;445.94:224&lt;/code&gt; = &lt;code&gt;2560:1112&lt;/code&gt; = &lt;code&gt;1000:434&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241114051151391.png&#34; alt=&#34;image-20241114051151391&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如图，图片长宽比为 &lt;code&gt;449.08:224&lt;/code&gt; = &lt;code&gt;2560:1277&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;精选分类&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20241114032645674.png&#34; alt=&#34;image-20241114032645674&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如图，图片长宽比为 2560:1297&lt;/p&gt;
+&lt;p&gt;如图，图片长宽比为 ``442.25:224 &lt;code&gt;=&lt;/code&gt; 2560:1297`&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -1463,78 +1484,6 @@ int main()
 &lt;/ol&gt;
 &lt;p&gt;成功的话返回以下格式信息：&lt;/p&gt;
 &lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Bing response:  &amp;#123; d: null &amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Baidu response:  &amp;#123;&#34;remain&#34;:2999,&#34;success&#34;:1&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;figcaption data-lang=&#34;text&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Google response:  &amp;#123;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  urlNotificationMetadata: &amp;#123;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    url: &#39;https://liuxiaohanhanzi.top/2024/10/12/ShokaX%E5%9B%BE%E7%89%87%E7%AE%A1%E7%90%86/&#39;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://liuxiaohanhanzi.top/blog-construction/Hexo%E9%83%A8%E7%BD%B2-%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/</guid>
-            <title>Hexo部署&amp;域名绑定</title>
-            <link>https://liuxiaohanhanzi.top/blog-construction/Hexo%E9%83%A8%E7%BD%B2-%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A/</link>
-            <category term="博客搭建" scheme="https://liuxiaohanhanzi.top/categories/blog-construction/" />
-            <category term="hexo" scheme="https://liuxiaohanhanzi.top/tags/hexo/" />
-            <category term="shoka" scheme="https://liuxiaohanhanzi.top/tags/shoka/" />
-            <category term="github" scheme="https://liuxiaohanhanzi.top/tags/github/" />
-            <category term="网络" scheme="https://liuxiaohanhanzi.top/tags/%E7%BD%91%E7%BB%9C/" />
-            <pubDate>Sun, 13 Oct 2024 23:09:10 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;参考&lt;a href=&#34;https://easyhexo.com/1-Hexo-install-and-config/1-4-deploy-hexo.html&#34;&gt; Hexo 官方文档&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;github-pages部署&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github-pages部署&#34;&gt;#&lt;/a&gt; Github pages 部署&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;在&lt;a href=&#34;https://github.com/&#34;&gt; GitHub&lt;/a&gt; 创建一个名为 &lt;code&gt;username.github.io&lt;/code&gt;  的公共存储库，其中 username 是您在 GitHub 上的用户名（注意必须要对应上，否则无法使用）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;在仓库界面点击 Code，复制仓库的 SSH 密钥&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241013185413718.png&#34; alt=&#34;image-20241013185413718&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;在博客根目录的 &lt;code&gt;_config.yml&lt;/code&gt;  进行修改：&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;deploy&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	  &lt;span class=&#34;token key atrule&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; git &lt;span class=&#34;token comment&#34;&gt;# 类型填 git&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	  &lt;span class=&#34;token key atrule&#34;&gt;repo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &amp;lt;repository url&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 复制的 SSH 密钥&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	  &lt;span class=&#34;token key atrule&#34;&gt;branch&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; main &lt;span class=&#34;token comment&#34;&gt;# 分支名称&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	  &lt;span class=&#34;token key atrule&#34;&gt;message&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 提交信息可以自定义，不填的则默认为提交时间&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;安装关联插件&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; hexo-deployer-git &lt;span class=&#34;token parameter variable&#34;&gt;--save&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; hexo-server &lt;span class=&#34;token parameter variable&#34;&gt;--save&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;此时运行以下代码&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo clean &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; hexo d &lt;span class=&#34;token parameter variable&#34;&gt;-g&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;即可访问 username.github.io 到博客页面&lt;/p&gt;
-&lt;h1 id=&#34;域名绑定&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#域名绑定&#34;&gt;#&lt;/a&gt; 域名绑定&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;注册购买域名&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;国内一般使用阿里云和腾讯云。博主比较穷，在&lt;a href=&#34;https://www.nazhumi.com/&#34;&gt;哪煮米&lt;/a&gt;比较性价比，选择在 Spaceship 购买 top 域名。（这里付款方式使用 Paypal，绑定大陆银行卡，还要进行邮箱验证）&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241013185923315.png&#34; alt=&#34;image-20241013185923315&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;配置域名进行解析&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;进入 spaceship 的&lt;a href=&#34;https://www.spaceship.com/zh/application/advanced-dns-application/&#34;&gt;管理页面&lt;/a&gt;，添加一条 DNS 记录，类型选择 CNAME，地址值填写 username.github.io：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241013194649648.png&#34; alt=&#34;image-20241013194649648&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;设置 github 仓库&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;进入刚刚的仓库，点击 settings - Pages，在 Custom domain 中填写自己的域名，save 后勾选强制 https（可能需等一下才能勾选）&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241013194042215.png&#34; alt=&#34;image-20241013194042215&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;绑定域名到 Hexo 博客&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;修改根目录下的 &lt;code&gt;_config.yml&lt;/code&gt; ：&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# URL&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;## Set your site url here. For example, if you use GitHub Page, set url as &#39;https://username.github.io/project&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; https&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;//liuxiaohanhanzi.top	&lt;span class=&#34;token comment&#34;&gt;# 修改为你自己的域名&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;permalink&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;year/&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;month/&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;day/&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;title/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;permalink_defaults&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;pretty_urls&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;trailing_index&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# Set to false to remove trailing &#39;index.html&#39; from permalinks&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;trailing_html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# Set to false to remove trailing &#39;.html&#39; from permalinks&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;本地文件&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;在本地博客文件夹的 source 目录中新建 TXT 文件，里面输入自己的域名（无 http 前缀），保存名称为 “CNAME”（无后缀）&lt;/p&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241013193247008.png&#34; alt=&#34;image-20241013193247008&#34; style=&#34;width:80%;margin:15px auto&#34; /&gt;
-&lt;p&gt;完成！&lt;/p&gt;
-&lt;h1 id=&#34;github域名加速&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github域名加速&#34;&gt;#&lt;/a&gt; Github 域名加速&lt;/h1&gt;
-&lt;p&gt;首先附上&lt;a href=&#34;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site&#34;&gt;官方指路文档&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;添加以下 IP 地址的 &lt;code&gt;A&lt;/code&gt;  类型记录到 DNS，host 为 &lt;code&gt;@&lt;/code&gt; ：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;185.199.108.153&lt;br /&gt;
-185.199.109.153&lt;br /&gt;
-185.199.110.153&lt;br /&gt;
-185.199.111.153&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;完成后 DNS 解析如下：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20241013195341440.png&#34; alt=&#34;image-20241013195341440&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;github-action自动部署未做&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github-action自动部署未做&#34;&gt;#&lt;/a&gt; Github action 自动部署 (未做)&lt;/h1&gt;
-&lt;p&gt;感觉目前没有什么必要做，先码住：&lt;a href=&#34;https://blog.moehz.com/archives/github-action.html&#34;&gt;教程链接&lt;/a&gt;&lt;/p&gt;
- ]]></description>
         </item>
     </channel>
 </rss>

@@ -3104,6 +3104,7 @@ use.stop-animation {
 }
 .cards .item.show,
 .segments > .item.show {
+  justify-content: space-between;
   opacity: 1;
 }
 @media (max-width: 820px) {
@@ -3319,8 +3320,8 @@ use.stop-animation {
   transform: scale(1.05) rotate(1deg);
 }
 .segments .cover {
-  width: 50%;
-  margin-right: 1.5rem;
+  width: 49%;
+  flex-shrink: 0;
   clip-path: polygon(0 0, 92% 0%, 100% 100%, 0% 100%);
   border-radius: 0.625rem 0 0 0.625rem;
   overflow: hidden;
@@ -3343,7 +3344,7 @@ use.stop-animation {
 }
 .segments .info {
   position: relative;
-  width: 50%;
+  width: 49%;
   padding: 1rem 1.5rem 3rem 0;
   perspective: 62.5rem;
 }
@@ -3390,7 +3391,6 @@ use.stop-animation {
 }
 .segments > .item:nth-child(even) .cover {
   margin-right: auto;
-  margin-left: 1.5rem;
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 8% 100%);
   border-radius: 0 0.625rem 0.625rem 0;
 }
