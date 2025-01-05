@@ -1917,8 +1917,8 @@ T(n)=\begin{cases}
 &lt;li&gt;因为我想用本地的版本，直接强制覆盖了：&lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push &lt;span class=&#34;token parameter variable&#34;&gt;-f&lt;/span&gt; origin main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="debug" scheme="https://liuxiaohanhanzi.top/tags/debug/" />
         <category term="git" scheme="https://liuxiaohanhanzi.top/tags/git/" />
+        <category term="debug" scheme="https://liuxiaohanhanzi.top/tags/debug/" />
         <updated>2024-11-14T15:20:23.000Z</updated>
     </entry>
     <entry>
