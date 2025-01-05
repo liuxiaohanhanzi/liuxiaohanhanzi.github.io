@@ -214,11 +214,11 @@
         {
             "id": "https://liuxiaohanhanzi.top/normal/git%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/",
             "url": "https://liuxiaohanhanzi.top/normal/git%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/",
-            "title": "git报错处理s",
+            "title": "git报错处理",
             "date_published": "2024-11-14T15:20:23.000Z",
             "content_html": "<h1 id=\"failed-to-connect-to-githubcom-port-443\"><a class=\"anchor\" href=\"#failed-to-connect-to-githubcom-port-443\">#</a> Failed to connect to github.com port 443</h1>\n<p>VPN 的问题，设置一下 port：</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">git</span> config <span class=\"token parameter variable\">--global</span> http.proxy <span class=\"token number\">127.0</span>.0.1:7890</pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token function\">git</span> config <span class=\"token parameter variable\">--global</span> https.proxy <span class=\"token number\">127.0</span>.0.1:7890</pre></td></tr></table></figure><p>其中 7890 是我的 clash 的 http 端口号</p>\n<h1 id=\"rejected-main-mainfetch-first\"><a class=\"anchor\" href=\"#rejected-main-mainfetch-first\">#</a> [rejected] main -＞ main(fetch first)</h1>\n<p>本地的 commit 版本与远程仓库的矛盾了</p>\n<p>两者从某一点开始，产生了版本分歧</p>\n<p>我出现这个问题纯属自己二五操作，在 github 网页上修改代码提交后，没有 pull 到本地</p>\n<ol>\n<li>下次记得 pull！！！（pull=fetch+merge）</li>\n<li>因为我想用本地的版本，直接强制覆盖了：</li>\n</ol>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token function\">git</span> push <span class=\"token parameter variable\">-f</span> origin main</pre></td></tr></table></figure>",
             "tags": [
-                "git_temp",
+                "git",
                 "debug"
             ]
         },

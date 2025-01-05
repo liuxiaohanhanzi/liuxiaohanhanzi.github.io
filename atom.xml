@@ -1903,7 +1903,7 @@ T(n)=\begin{cases}
     </entry>
     <entry>
         <id>https://liuxiaohanhanzi.top/normal/git%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/</id>
-        <title>git报错处理s</title>
+        <title>git报错处理</title>
         <link rel="alternate" href="https://liuxiaohanhanzi.top/normal/git%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86/"/>
         <content type="html">&lt;h1 id=&#34;failed-to-connect-to-githubcom-port-443&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#failed-to-connect-to-githubcom-port-443&#34;&gt;#&lt;/a&gt; Failed to connect to github.com port 443&lt;/h1&gt;
 &lt;p&gt;VPN 的问题，设置一下 port：&lt;/p&gt;
@@ -1917,7 +1917,7 @@ T(n)=\begin{cases}
 &lt;li&gt;因为我想用本地的版本，直接强制覆盖了：&lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push &lt;span class=&#34;token parameter variable&#34;&gt;-f&lt;/span&gt; origin main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="git_temp" scheme="https://liuxiaohanhanzi.top/tags/git-temp/" />
+        <category term="git" scheme="https://liuxiaohanhanzi.top/tags/git/" />
         <category term="debug" scheme="https://liuxiaohanhanzi.top/tags/debug/" />
         <updated>2024-11-14T15:20:23.000Z</updated>
     </entry>
