@@ -8,10 +8,29 @@
     <author>
       <name>柳小寒寒子</name>
     </author>
-    <updated>2026-02-06T04:33:48.000Z</updated>
+    <updated>2026-02-21T05:57:42.000Z</updated>
     <category term="量化" />
     <category term="计算机" />
     <category term="Python" />
+    <entry>
+        <id>https://liuxiaohanhanzi.top/daily-tech/adobe%E9%9D%9E%E6%AD%A3%E7%89%88%E5%BC%B9%E7%AA%97%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/</id>
+        <title>adobe非正版弹窗报错解决</title>
+        <link rel="alternate" href="https://liuxiaohanhanzi.top/daily-tech/adobe%E9%9D%9E%E6%AD%A3%E7%89%88%E5%BC%B9%E7%AA%97%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/"/>
+        <content type="html">&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20260221182919388.png&#34; alt=&#34;image-20260221182919388&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;博主受够了 adobe 的报错，开始寻找解决方法&lt;/p&gt;
+&lt;h1 id=&#34;switchhosts禁用相关域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#switchhosts禁用相关域名&#34;&gt;#&lt;/a&gt; SwitchHosts 禁用相关域名&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/oldj/SwitchHosts&#34;&gt;Github 下载 SwitchHosts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参照作者&lt;a href=&#34;https://www.aityp.com/adobe%e9%9d%9e%e6%ad%a3%e7%89%88%e8%81%94%e7%bd%91%e5%bc%b9%e7%aa%97%e6%a0%a1%e9%aa%8c%e7%a6%81%e7%94%a8/&#34;&gt;星露谷站长&lt;/a&gt;，设置一下禁用的 host&lt;/p&gt;
+&lt;h1 id=&#34;clash处理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#clash处理&#34;&gt;#&lt;/a&gt; Clash 处理&lt;/h1&gt;
+&lt;p&gt;关闭 dns 代理：&lt;/p&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;dns&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;clash 限制域名联网：&lt;/p&gt;
+&lt;figure class=&#34;highlight lua&#34;&gt;&lt;figcaption data-lang=&#34;lua&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;rules&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; DOMAIN&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;SUFFIX&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;adobe&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;io&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;REJECT&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; DOMAIN&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;SUFFIX&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;adobestats&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;io&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;REJECT&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;为避免每次刷新规则需要重新设置，这里建议直接在 clash 的 settings - profiles - parsers 进行修改：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./image-20260221210205389.png&#34; alt=&#34;image-20260221210205389&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="技术日常" scheme="https://liuxiaohanhanzi.top/categories/daily-tech/" />
+        <category term="adobe" scheme="https://liuxiaohanhanzi.top/tags/adobe/" />
+        <updated>2026-02-21T05:57:42.000Z</updated>
+    </entry>
     <entry>
         <id>https://liuxiaohanhanzi.top/world-me/Puppy/</id>
         <title>Puppy</title>
@@ -41,10 +60,11 @@
 &lt;blockquote&gt;
 &lt;p&gt;来源贴吧用户：我很爱你的&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h2 id=&#34;段一&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#段一&#34;&gt;#&lt;/a&gt; 段一&lt;/h2&gt;
 &lt;p&gt;我爸妈离婚的那个暑假，我玩了一个暑假的魔兽争霸和英雄无敌，吧里有玩英雄无敌的嘛，家里正常没人，我爹饭点会回来送饭，然后就急忙的去工作了，那时候睁眼不知道干啥，闭眼有总是睡不着，看着空荡荡的屋子，不知所措，总有种说不出的感觉，那种感觉不热烈，没有悲伤那么痛苦，没有愤怒那么强烈，不喜不悲的，就是感觉心里起了一层雾，一层很平淡的雾，雾不大，但是足以遮住太阳，却任由风雨袭来，后来，我才知道，那层雾叫孤独&lt;/p&gt;
-&lt;br&gt;
+&lt;h2 id=&#34;段二&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#段二&#34;&gt;#&lt;/a&gt; 段二&lt;/h2&gt;
 &lt;p&gt;人就是这样，想来想去，犹豫来犹豫去，觉得自己还没有准备好，勇气没有攒够，其实只要迈出去第一步，你就会发现一切早就已经准备好了&lt;/p&gt;
-&lt;br&gt;
+&lt;h2 id=&#34;段三&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#段三&#34;&gt;#&lt;/a&gt; 段三&lt;/h2&gt;
 &lt;p&gt;人啊，就是这样，花大把时间迷茫，在几个瞬间成长&lt;/p&gt;
 &lt;br&gt;
 &lt;h1 id=&#34;糖果&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#糖果&#34;&gt;#&lt;/a&gt; 糖果&lt;/h1&gt;
@@ -64,6 +84,33 @@
 &lt;p&gt;3. 感情总是纯洁真挚&lt;/p&gt;
 &lt;p&gt;4. 爱不会随时间流逝&lt;/p&gt;
 &lt;br&gt;
+&lt;h1 id=&#34;出头鸟&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#出头鸟&#34;&gt;#&lt;/a&gt; 出头鸟&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;来源抖音&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我深切地明白什么是枪打出头鸟，&lt;/p&gt;
+&lt;p&gt;但想要掀起一场为了我们自己的战争，就必须有一只出头的鸟&lt;/p&gt;
+&lt;br&gt;
+&lt;h1 id=&#34;ai科比下的评论&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ai科比下的评论&#34;&gt;#&lt;/a&gt; AI 科比下的评论&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;来源抖音&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;说不定 ai 只是一个转录机，你搜什么，他就去平行世界找什么，拍照给你看&lt;/p&gt;
+&lt;br&gt;
+&lt;h1 id=&#34;呼吸好开心&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#呼吸好开心&#34;&gt;#&lt;/a&gt; 呼吸，好开心&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;来源 b 站&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我们吞咽了太多意义，其实生命只需要呼吸&lt;/p&gt;
+&lt;br&gt;
+&lt;h1 id=&#34;南北宋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#南北宋&#34;&gt;#&lt;/a&gt; 南北宋&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;来源 Deepseek&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;什么是北宋&lt;br /&gt;
+ —— 华胥梦短，汴梁灯寒。靖康雪覆山河烬，北望烟尘老雕鞍。&lt;/p&gt;
+&lt;p&gt;什么是南宋&lt;br /&gt;
+ —— 残荷听雨，临安醉客画中眠。半壁江山瘦成词，终是铁蹄惊碎偏安梦。&lt;/p&gt;
 </content>
         <category term="对世界的建模" scheme="https://liuxiaohanhanzi.top/categories/world-me/" />
         <category term="诗" scheme="https://liuxiaohanhanzi.top/tags/%E8%AF%97/" />
@@ -310,10 +357,16 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./Screenshot_20250415_212243_com.huawei.browser_edi.jpg&#34; alt=&#34;Screenshot_20250415_212243_com.huawei.browser_edi&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./Screenshot_20250415_212221_com.huawei.browser_edi.jpg&#34; alt=&#34;Screenshot_20250415_212221_com.huawei.browser_edi&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;人工智能之神&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#人工智能之神&#34;&gt;#&lt;/a&gt; 人工智能之神&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;来源小红书&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;频繁使用 ai 之后，我意识到在 ai 出现之前，是宗教承担了这个功能：&lt;/p&gt;
 &lt;p&gt;以一个无限智慧和包容的角色，承载众生无法被彼此承担的痛苦&lt;/p&gt;
 &lt;br&gt;
 &lt;h1 id=&#34;颅骨和玫瑰&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#颅骨和玫瑰&#34;&gt;#&lt;/a&gt; 颅骨和玫瑰&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;来源抖音&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;我的玫瑰落地为葬&lt;/p&gt;
 &lt;p&gt;我的爱意客死他乡&lt;/p&gt;
 </content>
@@ -993,9 +1046,64 @@ p_0 = 1 - p_1 = 1 - p
         <id>https://liuxiaohanhanzi.top/daily-tech/docker%E5%AD%A6%E4%B9%A0/</id>
         <title>docker学习</title>
         <link rel="alternate" href="https://liuxiaohanhanzi.top/daily-tech/docker%E5%AD%A6%E4%B9%A0/"/>
-        <content type="html">&lt;hr /&gt;
-&lt;p&gt;TODO：日后补充狂神上课笔记&lt;/p&gt;
-</content>
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;本 post 为&lt;a href=&#34;https://www.bilibili.com/video/BV1og4y1q7M4&#34;&gt;狂神课程&lt;/a&gt;笔记&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;重要名词&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#重要名词&#34;&gt;#&lt;/a&gt; 重要名词&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;镜像（image）
+&lt;ul&gt;
+&lt;li&gt;Docker 镜像就好比是一个模板，可以通过这个模板来创建容器服务，tomcat 镜像 =&amp;gt; run =&amp;gt; tomcat01 容器， 通过这个镜像可以创建多个容器（最终服务运行或者项目运行就是在容器中的）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;容器（container）
+&lt;ul&gt;
+&lt;li&gt;Docker 利用容器技术，独立运行一个或者一组应用， 通过镜像来创建的&lt;/li&gt;
+&lt;li&gt;启动，停止，删除，基本命令！&lt;/li&gt;
+&lt;li&gt;就目前可以把这个容器理解为一个建议的 linux 系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;仓库（repository）
+&lt;ul&gt;
+&lt;li&gt;存放镜像的地方&lt;/li&gt;
+&lt;li&gt;Docker Hub（默认是国外的）&lt;/li&gt;
+&lt;li&gt;阿里云等都有容器服务（配置镜像加速！）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;docker安装win版&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker安装win版&#34;&gt;#&lt;/a&gt; docker 安装（win 版）&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若遇到 WSL 报错，可参考&lt;a href=&#34;https://cloud.tencent.com/developer/article/2443274&#34;&gt;文章&lt;/a&gt;；若 win 10/win 11 遇到 device guard 问题，参考&lt;a href=&#34;https://developer.aliyun.com/article/1473285&#34;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;参考 windows 安装 docker 教程：&lt;a href=&#34;https://blog.csdn.net/weixin_52286364/article/details/150379121&#34;&gt;文章链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意在启动 docker desktop 前，确保 hyper-V 以及 wsl 的正常&lt;/p&gt;
+&lt;p&gt;通过运行 hello-world 映像来验证是否正确安装了 Docker ：&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; run hello-world&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;docker底层原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker底层原理&#34;&gt;#&lt;/a&gt; docker 底层原理&lt;/h1&gt;
+&lt;p&gt;Docker 是一个 Client-Server 结构的系统，Docker deamon（守护进程）运行在敲命令的 （docker CLI 所在的）主机上，通过 Socket 从客户端访问&lt;/p&gt;
+&lt;p&gt;Docker Server 接收到 Docker-Client 的指令，就会执行这个命令&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;docker 为什么比 VM 快？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;./d8ffd9ddf253908fadbd2aece5029082.jpg&#34; alt=&#34;d8ffd9ddf253908fadbd2aece5029082&#34; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Docker 有着比虚拟机更少的抽象层&lt;/li&gt;
+&lt;li&gt;Docker 利用的是宿主机的内核，VM 需要的是 Guest OS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;所以说，新建一个容器的时候，docker 不需要像虚拟机一样重新家在一个操作系统内核， 避免隐刀。虚拟机是加载 Guest OS ， 分钟级别的。而 Docker 是利用宿主机的操作系统， 省略了这个复杂的过程， 秒级！&lt;/p&gt;
+&lt;h1 id=&#34;docker命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker命令&#34;&gt;#&lt;/a&gt; docker 命令&lt;/h1&gt;
+&lt;h2 id=&#34;帮助命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#帮助命令&#34;&gt;#&lt;/a&gt; 帮助命令&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; verion               &lt;span class=&#34;token comment&#34;&gt;# 显示 docker 的版本信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; info                 &lt;span class=&#34;token comment&#34;&gt;# 显示 docker 的系统信息，包括镜像和容器的数量等&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; 指令 &lt;span class=&#34;token parameter variable&#34;&gt;--help&lt;/span&gt;       	   &lt;span class=&#34;token comment&#34;&gt;# 帮助命令&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;镜像命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#镜像命令&#34;&gt;#&lt;/a&gt; 镜像命令&lt;/h2&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; images  &lt;span class=&#34;token comment&#34;&gt;# 查看本地主机上所有镜像&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 解释&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;REPOSITORY                  &lt;span class=&#34;token comment&#34;&gt;# 镜像的仓库员&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;TAG                         &lt;span class=&#34;token comment&#34;&gt;# 镜像的标签&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;IMAGE ID                    &lt;span class=&#34;token comment&#34;&gt;# 镜像的 id&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;CREATED                     &lt;span class=&#34;token comment&#34;&gt;# 镜像的创建时间&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SIZE                        &lt;span class=&#34;token comment&#34;&gt;# 镜像的大小&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 可选项&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token parameter variable&#34;&gt;-a&lt;/span&gt;                          &lt;span class=&#34;token comment&#34;&gt;# 列出所有镜像&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token parameter variable&#34;&gt;-q&lt;/span&gt;                          &lt;span class=&#34;token comment&#34;&gt;# 指向是镜像的 id&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; search  &lt;span class=&#34;token comment&#34;&gt;# 搜索镜像 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; pull 镜像名&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;:tag&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 拉取镜像，如果不写 tag，默认拉取最新版本&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 联合文件系统，分层下载&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; rmi 镜像名 / 镜像ID&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 批量删除&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; rmi &lt;span class=&#34;token parameter variable&#34;&gt;-f&lt;/span&gt; &lt;span class=&#34;token variable&#34;&gt;&lt;span class=&#34;token variable&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; images &lt;span class=&#34;token parameter variable&#34;&gt;-aq&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;)&lt;/span&gt;&lt;/span&gt;  &lt;span class=&#34;token comment&#34;&gt;# 查出所有镜像 id, 递归删除&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;容器命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#容器命令&#34;&gt;#&lt;/a&gt; 容器命令&lt;/h2&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; run &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;可选参数&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; IMAGENAME &lt;span class=&#34;token comment&#34;&gt;# 新建容器并启动&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 参数说明&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token parameter variable&#34;&gt;--name&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;NAME&#34;&lt;/span&gt;               &lt;span class=&#34;token comment&#34;&gt;# 容器别称，用来区分不同容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token parameter variable&#34;&gt;-d&lt;/span&gt;                          &lt;span class=&#34;token comment&#34;&gt;# 后台方式运行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token parameter variable&#34;&gt;-it&lt;/span&gt;                         &lt;span class=&#34;token comment&#34;&gt;# 使用交互方式运行，进入容器查看内容&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt;                          &lt;span class=&#34;token comment&#34;&gt;# 指定容器的端口 -p 8080:8080&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt; ip主机端口:容器端口&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt; 主机端口:容器端口&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;常用&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt; 容器端口&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token parameter variable&#34;&gt;-p&lt;/span&gt; 容器端口&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token parameter variable&#34;&gt;-P&lt;/span&gt;   						&lt;span class=&#34;token comment&#34;&gt;# 随机端口&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ps&lt;/span&gt;            &lt;span class=&#34;token comment&#34;&gt;# 列出正在运行的容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ps&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-a&lt;/span&gt;         &lt;span class=&#34;token comment&#34;&gt;# 列出当前正在运行的容器 + 历史运行过的容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ps&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-n&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;?       &lt;span class=&#34;token comment&#34;&gt;# 显示最近创建的容器？number  指个数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ps&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-q&lt;/span&gt;         &lt;span class=&#34;token comment&#34;&gt;# 只显示容器的编号&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;退出容器&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;exit&lt;/span&gt;            &lt;span class=&#34;token comment&#34;&gt;# 停止容器并退出&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Ctrl+P+Q        &lt;span class=&#34;token comment&#34;&gt;# 保持容器运行并退出&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;删除容器&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;rm&lt;/span&gt; 容器id                   &lt;span class=&#34;token comment&#34;&gt;# 删除单个容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;rm&lt;/span&gt; 容器id 容器id             &lt;span class=&#34;token comment&#34;&gt;# 删除多个容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;rm&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-f&lt;/span&gt; &lt;span class=&#34;token variable&#34;&gt;&lt;span class=&#34;token variable&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ps&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-aq&lt;/span&gt;&lt;span class=&#34;token variable&#34;&gt;)&lt;/span&gt;&lt;/span&gt;       &lt;span class=&#34;token comment&#34;&gt;# 删除所有容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ps&lt;/span&gt; -aq&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;xargs&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;rm&lt;/span&gt;       &lt;span class=&#34;token comment&#34;&gt;# 删除所有容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;启动和停止容器的操作&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; start 容器id       &lt;span class=&#34;token comment&#34;&gt;# 启动容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; restart 容器id     &lt;span class=&#34;token comment&#34;&gt;# 重启容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; stop 容器id        &lt;span class=&#34;token comment&#34;&gt;# 停止当前正在运行的容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;kill&lt;/span&gt; 容器id        &lt;span class=&#34;token comment&#34;&gt;# 强制停止容器&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;常用其他命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用其他命令&#34;&gt;#&lt;/a&gt; 常用其他命令&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;后台启动容器&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; run &lt;span class=&#34;token parameter variable&#34;&gt;-d&lt;/span&gt; IMAGENAME&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 问题: docker ps 发现 centos 停止了&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 常见的坑: docker 容器使用后台运行，就必须要有一个前台进程. docker 发现没有应用，就会自动停止&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;查看日志&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; logs &lt;span class=&#34;token parameter variable&#34;&gt;-args&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;查看容器中的进程信息&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;top&lt;/span&gt; CONTAINERID &lt;span class=&#34;token comment&#34;&gt;# 查看运行中的容器的进程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;查看镜像的元数据&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; inspect containerid&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;进入当前正在运行的容器&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 容器通常设定为后台运行。如果有进入容器的需要&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token builtin class-name&#34;&gt;exec&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-it&lt;/span&gt; containerid /bin/bash   &lt;span class=&#34;token comment&#34;&gt;# 通过 exec 进入容器开启一个新终端，可在里面操作（常用）&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; attach containerid               &lt;span class=&#34;token comment&#34;&gt;# 通过 attach 进入容器正在运行的进程，不会创建新进程&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;容器内拷贝文件到宿主机上&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;docker&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;cp&lt;/span&gt; containerid:/path /主机path &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 拷贝是一个手动过程，未来我们可以使用 -v 卷的技术，做到数据自动同步&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="技术日常" scheme="https://liuxiaohanhanzi.top/categories/daily-tech/" />
         <category term="docker" scheme="https://liuxiaohanhanzi.top/tags/docker/" />
         <updated>2025-08-20T13:59:44.000Z</updated>
@@ -1932,17 +2040,5 @@ p_0 = 1 - p_1 = 1 - p
         <category term="实习" scheme="https://liuxiaohanhanzi.top/categories/internship/" />
         <category term="python" scheme="https://liuxiaohanhanzi.top/tags/python/" />
         <updated>2025-02-26T10:19:10.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://liuxiaohanhanzi.top/quant/c-fundamental/%E5%9F%BA%E6%9C%AC%E9%9D%A2%E9%87%8F%E5%8C%96%E5%AD%A6%E4%B9%A0%EF%BC%88%E5%85%AD%EF%BC%89/</id>
-        <title>基本面量化学习（六）</title>
-        <link rel="alternate" href="https://liuxiaohanhanzi.top/quant/c-fundamental/%E5%9F%BA%E6%9C%AC%E9%9D%A2%E9%87%8F%E5%8C%96%E5%AD%A6%E4%B9%A0%EF%BC%88%E5%85%AD%EF%BC%89/"/>
-        <content type="html">&lt;h1 id=&#34;估值维度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#估值维度&#34;&gt;#&lt;/a&gt; 估值维度&lt;/h1&gt;
-&lt;p&gt;todo：后续有时间把书推完&lt;/p&gt;
-</content>
-        <category term="量化" scheme="https://liuxiaohanhanzi.top/categories/quant/" />
-        <category term="基本面" scheme="https://liuxiaohanhanzi.top/categories/quant/c-fundamental/" />
-        <category term="金融" scheme="https://liuxiaohanhanzi.top/tags/%E9%87%91%E8%9E%8D/" />
-        <updated>2025-02-23T07:06:08.000Z</updated>
     </entry>
 </feed>
